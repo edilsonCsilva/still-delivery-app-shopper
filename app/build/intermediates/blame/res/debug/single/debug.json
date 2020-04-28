@@ -1128,6 +1128,10 @@
         "source": "/home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/res/layout/zxing_capture.xml"
     },
     {
+        "merged": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/res/merged/debug/layout_activity_shopper_lines.xml.flat",
+        "source": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/res/layout/activity_shopper_lines.xml"
+    },
+    {
         "merged": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/home/dev2/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },

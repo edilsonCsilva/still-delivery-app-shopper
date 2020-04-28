@@ -127,6 +127,11 @@ public class DriversEndPointActions {
     }
 
 
+    public  DriversEndPoint shopper_supermarket_chain_associated(){
+        return getClient().create(DriversEndPoint.class);
+    }
+
+
 
 
     ////////////////////////////////////

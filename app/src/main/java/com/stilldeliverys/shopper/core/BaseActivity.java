@@ -31,6 +31,8 @@ public class BaseActivity extends AppCompatActivity {
     protected SettingsModel settingsModel;
     protected Context self;
 
+    protected String[] JWT;
+    protected List<Settings> setting;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {

@@ -1,8 +1,5 @@
 package com.stilldeliverys.shopper.ui;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
 import android.accounts.AccountManager;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -14,7 +11,8 @@ import android.widget.CompoundButton;
 import android.widget.ProgressBar;
 import android.widget.Switch;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.cardview.widget.CardView;
 
 import com.stilldeliverys.shopper.R;
 import com.stilldeliverys.shopper.Uteis.Utils;
@@ -71,6 +69,8 @@ public class MainActivity extends BaseActivity {
         txt_main_user_password_entry = findViewById(R.id.txt_main_user_password_entry);
         card_view_main = findViewById(R.id.card_view_main);
         br_status = findViewById(R.id.br_status);
+        br_status.setVisibility(View.GONE);
+
         List<Settings> url = (List<Settings>) settingsModel.find(ConstantesDbHelper.SETTINGS_SERVER_API.toUpperCase());
         if (url.size() == 1) {
             if (url.get(0).getMetadados().trim().isEmpty()) {
