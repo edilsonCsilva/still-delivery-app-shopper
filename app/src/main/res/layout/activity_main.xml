@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    tools:context=".ui.MainActivity">
+
+
+
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/br_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_main"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="16dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="19dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <ImageView
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="228dp"
+                android:src="@drawable/delivery4" />
+
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/e_mail"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <EditText
+
+                android:id="@+id/txt_main_user_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Senha"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <EditText
+
+                android:inputType="textPassword"
+                android:id="@+id/txt_main_user_password_entry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <Switch
+                android:textAlignment="textEnd"
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manter Conectado"
+                android:gravity="end" />
+
+            <Button
+                android:id="@+id/btn_main_validate_user_system"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login  " />
+
+
+            <TextView
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:gravity="end"
+                android:text="versão : 1.0.0"
+                android:textAlignment="textEnd" />
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
