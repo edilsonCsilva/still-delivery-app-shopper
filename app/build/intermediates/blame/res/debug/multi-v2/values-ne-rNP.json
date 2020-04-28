@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne-rNP/values-ne-rNP.xml",
+            "outputFile": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne-rNP/values-ne-rNP.xml",
             "map": [
                 {
                     "source": "/home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/res/values-ne-rNP/values-ne-rNP.xml",

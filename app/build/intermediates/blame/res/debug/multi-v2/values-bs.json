@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml",
+            "outputFile": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml",
             "map": [
                 {
                     "source": "/home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/res/values-bs/values.xml",

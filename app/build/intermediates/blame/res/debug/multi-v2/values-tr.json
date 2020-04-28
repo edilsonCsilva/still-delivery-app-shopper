@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
+            "outputFile": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
             "map": [
                 {
                     "source": "/home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/res/values-tr/values.xml",

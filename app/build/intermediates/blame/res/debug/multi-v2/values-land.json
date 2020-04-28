@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/home/dev2/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/values-land/values-land.xml",
