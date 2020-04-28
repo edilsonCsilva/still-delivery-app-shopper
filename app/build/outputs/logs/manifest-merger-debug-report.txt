@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:80:9-88:20
+INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:80:9-88:20
 	android:grantUriPermissions
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:84:13-47
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:84:13-47
 	android:authorities
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:82:13-60
+		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:82:13-60
 	android:exported
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:83:13-37
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:83:13-37
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:81:13-62
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:81:13-62
 manifest
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
 MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:17:1-30:12
 MERGED from [com.basgeekball:awesome-validation:2.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/8453adda785efbabc9a2ce8129888e22/jetified-awesome-validation-2.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -73,45 +73,45 @@ MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/dev2/.gradle/caches/t
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:45:1-56:12
 MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/ebf8d4c55ea93458efbd7990ff627192/jetified-answers-1.4.1/AndroidManifest.xml:2:1-13:12
 MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:22:1-33:12
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
 	package
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:4:5-41
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:4:5-41
+		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
+		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-91:12
+		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:15:5-79
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:15:5-79
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:15:22-76
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:15:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:16:5-68
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:16:5-68
 MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:16:22-65
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:16:22-65
 uses-permission#com.google.android.wearable.permission.RECEIVE_COMPLICATION_DATA
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:17:5-104
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:17:5-104
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:17:22-101
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:17:22-101
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:18:5-77
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:18:5-77
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:18:22-74
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:18:22-74
 uses-permission#android.permission.INTERNET
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:19:5-67
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:19:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:23:5-67
@@ -127,57 +127,57 @@ MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/dev2/.gradle/cache
 MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:29:5-67
 MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:19:22-64
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:19:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:20:5-79
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:20:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:20:22-76
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:20:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:21:5-81
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:21:5-81
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:21:22-78
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:21:22-78
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:22:5-81
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:22:22-78
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:22:22-78
 uses-permission#android.permission.CAMERA
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:23:5-65
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:23:5-65
 MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:19:3-62
 MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:19:3-62
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:23:22-62
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:23:22-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:24:5-80
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:24:5-80
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:24:22-77
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:24:22-77
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:25:5-75
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:25:5-75
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:25:22-72
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:25:22-72
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:26:5-81
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:26:5-81
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:26:22-78
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:26:22-78
 uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:27:5-88
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:27:5-88
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:27:22-85
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:27:22-85
 uses-permission#android.permission.LOCATION_HARDWARE
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:28:5-30:47
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:28:5-30:47
 	tools:ignore
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:30:9-44
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:29:9-60
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:29:9-60
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:31:5-78
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:31:5-78
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:31:22-75
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:31:22-75
 application
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:33:5-89:19
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:33:5-89:19
 MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:28:5-20
 MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:28:5-20
 MERGED from [com.google.android.material:material:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
@@ -229,83 +229,83 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/trans
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:38:9-35
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:38:9-35
 	android:label
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:36:9-41
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:36:9-41
 	tools:ignore
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:40:9-48
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:40:9-48
 	android:roundIcon
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:37:9-54
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:37:9-54
 	android:icon
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:35:9-43
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:35:9-43
 	android:allowBackup
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:34:9-35
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:34:9-35
 	android:theme
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:39:9-40
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:39:9-40
 activity#com.stilldeliverys.shopper.ui.StartApp
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:9-58
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:9-58
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:19-46
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:19-46
 activity#com.stilldeliverys.shopper.ui.DisplayStores
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:9-54
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:9-54
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:19-51
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:19-51
 activity#com.stilldeliverys.shopper.ui.MainActivity
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:9-54:20
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:9-54:20
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:19-50
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:44:13-48:29
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:44:13-48:29
 action#android.intent.action.MAIN
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:17-69
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:25-66
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:47:17-77
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:47:27-74
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:47:27-74
 intent-filter#action:name:com.google.zxing.client.android.SCAN+category:name:android.intent.category.DEFAULT
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:49:13-53:29
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:49:13-53:29
 action#com.google.zxing.client.android.SCAN
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:50:17-79
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:50:17-79
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:50:25-76
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:50:25-76
 category#android.intent.category.DEFAULT
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:52:17-76
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:52:17-76
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:52:27-73
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:52:27-73
 uses-library#org.apache.http.legacy
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:56:9-58:40
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:56:9-58:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 	android:required
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:58:13-37
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:57:13-50
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:57:13-50
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:67:9-69:55
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:67:9-69:55
 	android:value
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:69:13-52
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:69:13-52
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:68:13-58
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:68:13-58
 meta-data#com.google.android.gms.version
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:73:9-75:69
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:73:9-75:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/9792f7303fa8575fb1374e0d4e338168/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/9792f7303fa8575fb1374e0d4e338168/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:75:13-66
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:75:13-66
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:74:13-58
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:74:13-58
 meta-data#io.fabric.ApiKey
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:76:9-78:72
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:76:9-78:72
 	android:value
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:78:13-69
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:78:13-69
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:77:13-44
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:77:13-44
 uses-sdk
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:22:5-24:41
 MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:22:5-24:41
 MERGED from [com.basgeekball:awesome-validation:2.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/8453adda785efbabc9a2ce8129888e22/jetified-awesome-validation-2.0/AndroidManifest.xml:7:5-9:41
@@ -422,22 +422,22 @@ MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/dev2/.gradle/cache
 MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/ebf8d4c55ea93458efbd7990ff627192/jetified-answers-1.4.1/AndroidManifest.xml:7:5-43
 MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:27:5-43
 MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:27:5-43
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:85:13-87:58
+ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:85:13-87:58
 	android:resource
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:87:17-55
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:87:17-55
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/teste/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:86:17-67
+		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:86:17-67
 uses-permission#android.permission.VIBRATE
 ADDED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:26:5-66
 MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:20:3-63
