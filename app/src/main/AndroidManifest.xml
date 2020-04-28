@@ -38,7 +38,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.StartApp"></activity>
+        <activity android:name=".ui.DisplaysOrders"></activity>
+        <activity android:name=".ui.StartApp" />
         <activity android:name=".ui.DisplayStores" />
         <activity android:name=".ui.MainActivity">
             <intent-filter>

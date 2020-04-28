@@ -8,8 +8,10 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -20,6 +22,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.stilldeliverys.shopper.R;
 import com.stilldeliverys.shopper.api.DriversEndPointActions;
 import com.stilldeliverys.shopper.core.BaseActivity;
+import com.stilldeliverys.shopper.core.Constantes;
 import com.stilldeliverys.shopper.core.ConstantesDbHelper;
 import com.stilldeliverys.shopper.core.Libs;
 import com.stilldeliverys.shopper.db.Settings;
@@ -76,6 +79,9 @@ public class DisplayStores extends BaseActivity {
         events = new OnClickedAndInteractingWithEventsBasic() {
             @Override
             public void onClick(String type, String metadados) {
+
+
+                Toast.makeText(self,metadados,Toast.LENGTH_SHORT).show();
 
             }
         };
@@ -178,10 +184,11 @@ public class DisplayStores extends BaseActivity {
         @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
         @Override
         public void onBindViewHolder(@NonNull Shopper holder, int position) {
-            JSONObject json_object = null;
+
             try{
 
                 JSONArray object = new JSONArray(this.objects.get(position).toString());
+                final String json_object = this.objects.get(position).toString();
                 JSONObject object1 = new JSONObject(object.get(0).toString());
 
                 holder.act_conct_router_dest_txt_uuid.setText(object1.getString("id"));
@@ -195,6 +202,12 @@ public class DisplayStores extends BaseActivity {
                 holder.act_conct_router_dest_txt_endereco.setText(object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("full_address"));
 
 
+                holder.act_btn_shopper_orders.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        mOnClickedAndInteractingWithEvents.onClick(Constantes.base_grant_type,json_object);
+                    }
+                });
 
 
 
@@ -222,6 +235,8 @@ public class DisplayStores extends BaseActivity {
             private TextView act_conct_router_dest_txt_uuid,act_conct_router_dest_txt_name,act_conct_router_dest_txt_name_distance,
                     act_conct_router_dest_txt_email,act_conct_router_dest_txt_contatos,act_conct_router_dest_txt_endereco;
 
+            private Button act_btn_shopper_orders;
+
 
 
             public Shopper(View itemView) {
@@ -233,6 +248,7 @@ public class DisplayStores extends BaseActivity {
                 act_conct_router_dest_txt_email=(TextView)itemView.findViewById(R.id.act_conct_router_dest_txt_email);
                 act_conct_router_dest_txt_contatos=(TextView)itemView.findViewById(R.id.act_conct_router_dest_txt_contatos);
                 act_conct_router_dest_txt_endereco=(TextView)itemView.findViewById(R.id.act_conct_router_dest_txt_endereco);
+                act_btn_shopper_orders=(Button)itemView.findViewById(R.id.act_btn_shopper_orders);
 
 
 

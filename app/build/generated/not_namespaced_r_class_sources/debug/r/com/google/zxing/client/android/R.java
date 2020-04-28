@@ -73,10 +73,10 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int app_picker_list_item = 0x7f0c0020;
-        public static final int zxing_capture = 0x7f0c0054;
-        public static final int zxing_encode = 0x7f0c0055;
-        public static final int zxing_help = 0x7f0c0056;
+        public static final int app_picker_list_item = 0x7f0c0021;
+        public static final int zxing_capture = 0x7f0c0055;
+        public static final int zxing_encode = 0x7f0c0056;
+        public static final int zxing_help = 0x7f0c0057;
     }
     public static final class menu {
         private menu() {}
