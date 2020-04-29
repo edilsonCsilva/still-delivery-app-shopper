@@ -1373,6 +1373,16 @@ id app_picker_list_item_icon
 id app_picker_list_item_label
 id async
 id auto
+id avl_cdv_selecionar
+id avl_txt_conductor_vehicles_capacyt_max
+id avl_txt_conductor_vehicles_capacyt_min
+id avl_txt_conductor_vehicles_placa_name
+id avl_txt_conductor_vehicles_type
+id avl_txt_supermarket_conductor_contrato
+id avl_txt_supermarket_conductor_email
+id avl_txt_supermarket_conductor_endereco
+id avl_txt_supermarket_conductor_name
+id avl_txt_supermarket_conductor_telefone
 id back_button
 id barcode_image_view
 id barrier
@@ -1424,6 +1434,7 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id divider
 id done_button
 id edit_query
 id end
@@ -1700,6 +1711,8 @@ layout activity_display_stores
 layout activity_displays_orders
 layout activity_main
 layout activity_shopper_lines
+layout activity_shopper_orders_lines
+layout activity_shopper_settings
 layout activity_start_app
 layout app_picker_list_item
 layout custom_dialog
@@ -1762,6 +1775,7 @@ menu driver_perfil_menu
 menu driver_search_menu
 menu driver_search_menu_detalis
 menu driver_search_menu_login
+menu driver_search_menu_shopper
 menu driver_search_menu_withdrawal
 menu informations_car
 menu zxing_capture
@@ -2004,6 +2018,7 @@ string not_router_conductor
 string not_supermarket
 string not_supermarket_associated
 string order_delivered
+string order_do_pedido
 string order_not_available
 string order_recused
 string order_to_transitive

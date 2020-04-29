@@ -44,6 +44,10 @@ public class ConstantesDbHelper {
     public static String SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_TYPE = "is_login_active_type";
     public static String SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_SUPERMARKS_SELECT = "is_login_active_supermarkts";
     public static String SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_CAR_SELECT = "is_login_active_car_selecionado";
+
+
+
+
     public static String SETTINGS_ACESS_API_LOGIN = "jwt";
     public static String SETTINGS_METADATA = "metadados";
     public static String SETTINGS_SERVER_API = "url_api";

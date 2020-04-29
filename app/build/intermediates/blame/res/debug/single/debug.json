@@ -1348,6 +1348,10 @@
         "source": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/res/mipmap-xxxhdpi/ic_launcher_deliveris_3_round.png"
     },
     {
+        "merged": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/res/merged/debug/layout_activity_shopper_settings.xml.flat",
+        "source": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/res/layout/activity_shopper_settings.xml"
+    },
+    {
         "merged": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/home/dev2/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1702,6 +1706,10 @@
     {
         "merged": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
         "source": "/home/dev2/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/res/merged/debug/layout_activity_shopper_orders_lines.xml.flat",
+        "source": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/res/layout/activity_shopper_orders_lines.xml"
     },
     {
         "merged": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
@@ -2730,6 +2738,10 @@
     {
         "merged": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_qrcode_1_.png.flat",
         "source": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/res/mipmap-hdpi/ic_launcher_qrcode_1_.png"
+    },
+    {
+        "merged": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/res/merged/debug/menu_driver_search_menu_shopper.xml.flat",
+        "source": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/res/menu/driver_search_menu_shopper.xml"
     },
     {
         "merged": "/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat",

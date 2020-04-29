@@ -28,6 +28,14 @@ public class Libs {
 
 
 
+
+
+
+
+
+
+
+
     public  static  List<Settings>  seek_configurations(Context self, String type, String metadados, boolean insert){
         List<Settings> settings =null;
         SettingsModel settingsModel = new SettingsModel(self);
@@ -49,14 +57,11 @@ public class Libs {
 
 
     public static void deslogar(Context self) {
-
-
         SettingsModel settingsModel = new SettingsModel(self);
         List<Settings> setting = (List<Settings>) settingsModel.find(ConstantesDbHelper.SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_TYPE.toUpperCase());
         if (setting.size() != 0) {
             setting.get(0).setMetadados("");
             settingsModel.update(setting.get(0));
-
             setting = (List<Settings>) settingsModel.find(ConstantesDbHelper.SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_SUPERMARKS_SELECT.toUpperCase());
             if (setting.size() != 0) {
                 setting.get(0).setMetadados("");

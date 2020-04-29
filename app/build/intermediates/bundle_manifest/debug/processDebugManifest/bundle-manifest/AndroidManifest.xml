@@ -76,6 +76,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.stilldeliverys.shopper.ui.ShopperSettings" />
         <activity android:name="com.stilldeliverys.shopper.ui.DisplaysOrders" />
         <activity android:name="com.stilldeliverys.shopper.ui.StartApp" />
         <activity android:name="com.stilldeliverys.shopper.ui.DisplayStores" />

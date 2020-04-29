@@ -132,7 +132,7 @@
 67-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:37:21-49
 68
 69    <application
-69-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:33:5-90:19
+69-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:33:5-91:19
 70        android:allowBackup="true"
 70-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:34:9-35
 71        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -149,213 +149,216 @@
 77        android:testOnly="true"
 78        android:theme="@style/AppTheme" >
 78-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:39:9-40
-79        <activity android:name="com.stilldeliverys.shopper.ui.DisplaysOrders" />
-79-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:9-64
-79-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:19-52
-80        <activity android:name="com.stilldeliverys.shopper.ui.StartApp" />
-80-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:9-49
-80-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:19-46
-81        <activity android:name="com.stilldeliverys.shopper.ui.DisplayStores" />
-81-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:9-54
-81-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:19-51
-82        <activity android:name="com.stilldeliverys.shopper.ui.MainActivity" >
-82-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:44:9-55:20
-82-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:44:19-50
-83            <intent-filter>
-83-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:13-49:29
-84                <action android:name="android.intent.action.MAIN" />
-84-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:46:17-69
-84-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:46:25-66
-85
-86                <category android:name="android.intent.category.LAUNCHER" />
-86-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:48:17-77
-86-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:48:27-74
-87            </intent-filter>
-88            <intent-filter>
-88-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:50:13-54:29
-89                <action android:name="com.google.zxing.client.android.SCAN" />
-89-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:51:17-79
-89-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:51:25-76
-90
-91                <category android:name="android.intent.category.DEFAULT" />
-91-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:53:17-76
-91-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:53:27-73
-92            </intent-filter>
-93        </activity>
-94
-95        <uses-library
-95-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:57:9-59:40
-96            android:name="org.apache.http.legacy"
-96-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:58:13-50
-97            android:required="false" />
-97-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:59:13-37
-98        <!--
-99             The API key for Google Maps-based APIs is defined as a string resource.
-100             (See the file "res/values/google_maps_api.xml").
-101             Note that the API key is linked to the encryption key used to sign the APK.
-102             You need a different API key for each encryption key, including the release key that is used to
-103             sign the APK for publishing.
-104             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-105        -->
-106        <meta-data
-106-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:68:9-70:55
-107            android:name="com.google.android.geo.API_KEY"
-107-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:69:13-58
-108            android:value="@string/google_maps_key" />
-108-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:70:13-52
-109        <meta-data
-109-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:68:9-70:55
-110            android:name="com.google.android.geo.API_KEY"
-110-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:69:13-58
-111            android:value="@string/google_maps_key" />
-111-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:70:13-52
-112        <meta-data
-112-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:74:9-76:69
-113            android:name="com.google.android.gms.version"
-113-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:75:13-58
-114            android:value="@integer/google_play_services_version" />
-114-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:76:13-66
-115        <meta-data
-115-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:77:9-79:72
-116            android:name="io.fabric.ApiKey"
-116-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:78:13-44
-117            android:value="060dbe7279be05c2ff1cf822f8c822c5c82c2492" />
-117-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:79:13-69
-118
-119        <provider
-120            android:name="androidx.core.content.FileProvider"
-120-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:82:13-62
-121            android:authorities="com.stilldeliverys.shopper.provider"
-121-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:83:13-60
-122            android:exported="false"
-122-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:84:13-37
-123            android:grantUriPermissions="true" >
-123-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:85:13-47
-124            <meta-data
-124-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:86:13-88:58
-125                android:name="android.support.FILE_PROVIDER_PATHS"
-125-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:87:17-67
-126                android:resource="@xml/provider_paths" />
-126-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:88:17-55
-127        </provider>
-128        <!--
-129             FirebaseMessagingService performs security checks at runtime,
-130             no need for explicit permissions despite exported="true"
-131        -->
-132        <service
-132-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
-133            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-133-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
-134            android:exported="true" >
-134-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
-135            <intent-filter android:priority="-500" >
-135-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:31:13-33:29
-135-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:31:28-51
-136                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-136-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:32:17-78
-136-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:32:25-75
-137            </intent-filter>
-138        </service>
-139        <service
-139-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:29:9-35:19
-140            android:name="com.google.firebase.components.ComponentDiscoveryService"
-140-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:30:13-84
-141            android:exported="false" >
-141-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:31:13-37
-142            <meta-data
-142-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
-143                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-143-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
-144                android:value="com.google.firebase.components.ComponentRegistrar" />
-144-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
-145        </service>
-146
-147        <receiver
-147-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
-148            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-148-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
-149            android:exported="true"
-149-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
-150            android:permission="com.google.android.c2dm.permission.SEND" >
-150-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
-151            <intent-filter>
-151-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
-152                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-152-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:17-81
-152-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:25-78
-153            </intent-filter>
-154        </receiver>
-155        <!--
-156             FirebaseInstanceIdService performs security checks at runtime,
-157             no need for explicit permissions despite exported="true"
-158        -->
-159        <service
-159-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
-160            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-160-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
-161            android:exported="true" >
-161-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
-162            <intent-filter android:priority="-500" >
-162-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:13-55:29
-162-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:28-51
-163                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-163-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:17-80
-163-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:25-77
-164            </intent-filter>
-165        </service>
-166
-167        <activity
-167-->[com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-168            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-168-->[com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-169            android:exported="false"
-169-->[com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-170            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-170-->[com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-171
-172        <provider
-172-->[com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
-173            android:name="com.google.firebase.provider.FirebaseInitProvider"
-173-->[com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
-174            android:authorities="com.stilldeliverys.shopper.firebaseinitprovider"
-174-->[com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
-175            android:exported="false"
-175-->[com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
-176            android:initOrder="100" />
-176-->[com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
-177        <provider
-177-->[com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:12:9-16:39
-178            android:name="com.crashlytics.android.CrashlyticsInitProvider"
-178-->[com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:13:13-75
-179            android:authorities="com.stilldeliverys.shopper.crashlyticsinitprovider"
-179-->[com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:14:13-75
-180            android:exported="false"
-180-->[com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:15:13-37
-181            android:initOrder="100" />
-181-->[com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:16:13-36
-182
-183        <activity
-183-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:7-340
-184            android:name="com.google.zxing.client.android.CaptureActivity"
-184-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:101-163
-185            android:clearTaskOnLaunch="true"
-185-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:17-49
-186            android:configChanges="orientation|keyboardHidden"
-186-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:50-100
-187            android:screenOrientation="landscape"
-187-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:164-201
-188            android:stateNotNeeded="true"
-188-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:202-231
-189            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-189-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:232-290
-190            android:windowSoftInputMode="stateAlwaysHidden" />
-190-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:291-338
-191        <activity
-191-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:45:7-111
-192            android:name="com.google.zxing.client.android.HelpActivity"
-192-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:45:17-76
-193            android:screenOrientation="user" />
-193-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:45:77-109
-194    </application>
-195
-196</manifest>
+79        <activity android:name="com.stilldeliverys.shopper.ui.ShopperSettings" />
+79-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:9-65
+79-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:19-53
+80        <activity android:name="com.stilldeliverys.shopper.ui.DisplaysOrders" />
+80-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:9-55
+80-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:19-52
+81        <activity android:name="com.stilldeliverys.shopper.ui.StartApp" />
+81-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:9-49
+81-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:19-46
+82        <activity android:name="com.stilldeliverys.shopper.ui.DisplayStores" />
+82-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:44:9-54
+82-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:44:19-51
+83        <activity android:name="com.stilldeliverys.shopper.ui.MainActivity" >
+83-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:9-56:20
+83-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:19-50
+84            <intent-filter>
+84-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:46:13-50:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:47:17-69
+85-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:47:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:49:17-77
+87-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:49:27-74
+88            </intent-filter>
+89            <intent-filter>
+89-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:51:13-55:29
+90                <action android:name="com.google.zxing.client.android.SCAN" />
+90-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:52:17-79
+90-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:52:25-76
+91
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:54:17-76
+92-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:54:27-73
+93            </intent-filter>
+94        </activity>
+95
+96        <uses-library
+96-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:58:9-60:40
+97            android:name="org.apache.http.legacy"
+97-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:59:13-50
+98            android:required="false" />
+98-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:60:13-37
+99        <!--
+100             The API key for Google Maps-based APIs is defined as a string resource.
+101             (See the file "res/values/google_maps_api.xml").
+102             Note that the API key is linked to the encryption key used to sign the APK.
+103             You need a different API key for each encryption key, including the release key that is used to
+104             sign the APK for publishing.
+105             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+106        -->
+107        <meta-data
+107-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:69:9-71:55
+108            android:name="com.google.android.geo.API_KEY"
+108-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:70:13-58
+109            android:value="@string/google_maps_key" />
+109-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:71:13-52
+110        <meta-data
+110-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:69:9-71:55
+111            android:name="com.google.android.geo.API_KEY"
+111-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:70:13-58
+112            android:value="@string/google_maps_key" />
+112-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:71:13-52
+113        <meta-data
+113-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:75:9-77:69
+114            android:name="com.google.android.gms.version"
+114-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:76:13-58
+115            android:value="@integer/google_play_services_version" />
+115-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:77:13-66
+116        <meta-data
+116-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:78:9-80:72
+117            android:name="io.fabric.ApiKey"
+117-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:79:13-44
+118            android:value="060dbe7279be05c2ff1cf822f8c822c5c82c2492" />
+118-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:80:13-69
+119
+120        <provider
+121            android:name="androidx.core.content.FileProvider"
+121-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:83:13-62
+122            android:authorities="com.stilldeliverys.shopper.provider"
+122-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:84:13-60
+123            android:exported="false"
+123-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:85:13-37
+124            android:grantUriPermissions="true" >
+124-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:86:13-47
+125            <meta-data
+125-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:87:13-89:58
+126                android:name="android.support.FILE_PROVIDER_PATHS"
+126-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:88:17-67
+127                android:resource="@xml/provider_paths" />
+127-->/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:89:17-55
+128        </provider>
+129        <!--
+130             FirebaseMessagingService performs security checks at runtime,
+131             no need for explicit permissions despite exported="true"
+132        -->
+133        <service
+133-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
+134            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+134-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
+135            android:exported="true" >
+135-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
+136            <intent-filter android:priority="-500" >
+136-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:31:13-33:29
+136-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:31:28-51
+137                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+137-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:32:17-78
+137-->[com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:32:25-75
+138            </intent-filter>
+139        </service>
+140        <service
+140-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:29:9-35:19
+141            android:name="com.google.firebase.components.ComponentDiscoveryService"
+141-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:30:13-84
+142            android:exported="false" >
+142-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:31:13-37
+143            <meta-data
+143-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
+144                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+144-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
+146        </service>
+147
+148        <receiver
+148-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
+149            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+149-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
+150            android:exported="true"
+150-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
+151            android:permission="com.google.android.c2dm.permission.SEND" >
+151-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
+152            <intent-filter>
+152-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
+153                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+153-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:17-81
+153-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:25-78
+154            </intent-filter>
+155        </receiver>
+156        <!--
+157             FirebaseInstanceIdService performs security checks at runtime,
+158             no need for explicit permissions despite exported="true"
+159        -->
+160        <service
+160-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
+161            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+161-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
+162            android:exported="true" >
+162-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
+163            <intent-filter android:priority="-500" >
+163-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:13-55:29
+163-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:28-51
+164                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+164-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:17-80
+164-->[com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:25-77
+165            </intent-filter>
+166        </service>
+167
+168        <activity
+168-->[com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+169            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+169-->[com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+170            android:exported="false"
+170-->[com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+171            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+171-->[com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+172
+173        <provider
+173-->[com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+174            android:name="com.google.firebase.provider.FirebaseInitProvider"
+174-->[com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+175            android:authorities="com.stilldeliverys.shopper.firebaseinitprovider"
+175-->[com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+176            android:exported="false"
+176-->[com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+177            android:initOrder="100" />
+177-->[com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+178        <provider
+178-->[com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:12:9-16:39
+179            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+179-->[com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:13:13-75
+180            android:authorities="com.stilldeliverys.shopper.crashlyticsinitprovider"
+180-->[com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:14:13-75
+181            android:exported="false"
+181-->[com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:15:13-37
+182            android:initOrder="100" />
+182-->[com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:16:13-36
+183
+184        <activity
+184-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:7-340
+185            android:name="com.google.zxing.client.android.CaptureActivity"
+185-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:101-163
+186            android:clearTaskOnLaunch="true"
+186-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:17-49
+187            android:configChanges="orientation|keyboardHidden"
+187-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:50-100
+188            android:screenOrientation="landscape"
+188-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:164-201
+189            android:stateNotNeeded="true"
+189-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:202-231
+190            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+190-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:232-290
+191            android:windowSoftInputMode="stateAlwaysHidden" />
+191-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:291-338
+192        <activity
+192-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:45:7-111
+193            android:name="com.google.zxing.client.android.HelpActivity"
+193-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:45:17-76
+194            android:screenOrientation="user" />
+194-->[com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:45:77-109
+195    </application>
+196
+197</manifest>

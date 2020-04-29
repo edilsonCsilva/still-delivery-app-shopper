@@ -1,17 +1,19 @@
 package com.stilldeliverys.shopper.ui;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -41,18 +43,19 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class DisplayStores extends BaseActivity {
-
+    private List<Settings> supermarkets_active;
     private RecyclerView act_conct_router_list;
     private RecyclerView.Adapter AdapterConductorAssociatedShopper;
     private RecyclerView.LayoutManager layoutManager;
     private OnClickedAndInteractingWithEventsBasic events;
     private List<Settings> setting = null;
     private List<Object> stores_shopper = new ArrayList<Object>();
-    private Object shopper_associated = new Object();
     private CardView card_view_main;
     private ProgressBar br_status;
     private TextView card_view_mensagem_conteudo;
     private CardView card_view_mensagem;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,27 +71,43 @@ public class DisplayStores extends BaseActivity {
         act_conct_router_list.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(self);
         act_conct_router_list.setLayoutManager(layoutManager);
-
-
-
+        Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE," ",false);
         setting = (List<Settings>) settingsModel.find(ConstantesDbHelper.SETTINGS_ACESS_API_LOGIN.toUpperCase());
         JWT = Libs.jsonToObjectJwt(setting.get(0).getMetadados());
         Intent intent = getIntent();
-
 
         events = new OnClickedAndInteractingWithEventsBasic() {
             @Override
             public void onClick(String type, String metadados) {
 
+                //E20
+                if (type.equals(Constantes.action_supermarkets_selected)) {
+                    if (supermarkets_active.size() != 0) {
+                        supermarkets_active.get(0).setMetadados(metadados);
+                        settingsModel.update(supermarkets_active.get(0));
+                        startActivity(new Intent(self, DisplaysOrders.class));
+                    }
+                }
 
-                Toast.makeText(self,metadados,Toast.LENGTH_SHORT).show();
 
             }
         };
 
+        clear_supermarket_settings();
         set_barra_conteudo(true, false, false, "");
         load_stores_to_shoppe();
 
+
+
+    }
+
+    private void clear_supermarket_settings() {
+        supermarkets_active = (List<Settings>) settingsModel.find(ConstantesDbHelper.SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_SUPERMARKS_SELECT.toUpperCase());
+        if (supermarkets_active.size() != 0) {
+            supermarkets_active.get(0).setMetadados("");
+            settingsModel.update(supermarkets_active.get(0));
+
+        }
 
     }
 
@@ -101,6 +120,46 @@ public class DisplayStores extends BaseActivity {
 
     }
 
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+
+        AlertDialog alertDialog = new AlertDialog.Builder(self).create();
+
+        switch (item.getItemId()) {
+
+            case R.id.end_application:
+                alertDialog.setTitle(getString(R.string.msn_title));
+                alertDialog.setMessage(getString(R.string.msn_finalizar_logout_app));
+                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                                Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE," ",false);
+                                Libs.deslogar(self);
+                                Intent intent = new Intent(self, MainActivity.class);
+                                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                startActivity(intent);
+                                finish();
+                            }
+                        });
+
+                alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "Cancelar",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+
+                            }
+                        });
+
+                alertDialog.show();
+
+                return true;
+            default:
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
     private void load_stores_to_shoppe() {
 
 
@@ -111,19 +170,20 @@ public class DisplayStores extends BaseActivity {
                         if (response.isSuccessful()) {
                             try {
                                 JSONObject list_stores_shopper = new JSONObject(response.body().string());
+                                //recupera o array "elenco"
+                                JSONObject dados = new JSONObject(list_stores_shopper.getJSONArray("data").get(0).toString());
+                                String shopper = dados.getJSONObject("shopper").toString();
+                                Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE,"true",false);
+                                Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE,shopper,false);
                                 stores_shopper.add(list_stores_shopper.getJSONArray("data"));
-
-
-
                                 AdapterConductorAssociatedShopper = new AdapterAssociated(stores_shopper, events);
                                 act_conct_router_list.setAdapter(AdapterConductorAssociatedShopper);
-
-
-                                System.out.println("");
                                 set_barra_conteudo(false, true, false, "");
 
                             } catch (Exception e) {
                                 e.printStackTrace();
+                                set_barra_conteudo(false, false, true, e.getMessage());
+
                             }
 
                         }
@@ -168,6 +228,7 @@ public class DisplayStores extends BaseActivity {
     public class AdapterAssociated extends RecyclerView.Adapter<AdapterAssociated.Shopper> {
         private List<Object> objects;
         private OnClickedAndInteractingWithEventsBasic mOnClickedAndInteractingWithEvents;
+
         public AdapterAssociated(List<Object> objects, OnClickedAndInteractingWithEventsBasic listener) {
             this.objects = objects;
             mOnClickedAndInteractingWithEvents = listener;
@@ -185,7 +246,7 @@ public class DisplayStores extends BaseActivity {
         @Override
         public void onBindViewHolder(@NonNull Shopper holder, int position) {
 
-            try{
+            try {
 
                 JSONArray object = new JSONArray(this.objects.get(position).toString());
                 final String json_object = this.objects.get(position).toString();
@@ -197,30 +258,22 @@ public class DisplayStores extends BaseActivity {
 
                 holder.act_conct_router_dest_txt_email.setText(object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("email"));
                 holder.act_conct_router_dest_txt_contatos.setText(
-                        String.format("%s/%s",object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("cellphone"),
-                                              object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("phone")));
+                        String.format("%s/%s", object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("cellphone"),
+                                object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("phone")));
                 holder.act_conct_router_dest_txt_endereco.setText(object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("full_address"));
 
 
                 holder.act_btn_shopper_orders.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        mOnClickedAndInteractingWithEvents.onClick(Constantes.base_grant_type,json_object);
+                        mOnClickedAndInteractingWithEvents.onClick(Constantes.action_supermarkets_selected, json_object);
                     }
                 });
 
 
-
-
-
-            }catch (Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
             }
-
-
-
-
-
 
 
         }
@@ -232,28 +285,22 @@ public class DisplayStores extends BaseActivity {
 
         public class Shopper extends RecyclerView.ViewHolder {
 
-            private TextView act_conct_router_dest_txt_uuid,act_conct_router_dest_txt_name,act_conct_router_dest_txt_name_distance,
-                    act_conct_router_dest_txt_email,act_conct_router_dest_txt_contatos,act_conct_router_dest_txt_endereco;
+            private TextView act_conct_router_dest_txt_uuid, act_conct_router_dest_txt_name, act_conct_router_dest_txt_name_distance,
+                    act_conct_router_dest_txt_email, act_conct_router_dest_txt_contatos, act_conct_router_dest_txt_endereco;
 
             private Button act_btn_shopper_orders;
-
 
 
             public Shopper(View itemView) {
                 super(itemView);
 
-                act_conct_router_dest_txt_uuid=(TextView)itemView.findViewById(R.id.act_conct_router_dest_txt_uuid);
-                act_conct_router_dest_txt_name=(TextView)itemView.findViewById(R.id.act_conct_router_dest_txt_name);
-                act_conct_router_dest_txt_name_distance=(TextView)itemView.findViewById(R.id.act_conct_router_dest_txt_name_distance);
-                act_conct_router_dest_txt_email=(TextView)itemView.findViewById(R.id.act_conct_router_dest_txt_email);
-                act_conct_router_dest_txt_contatos=(TextView)itemView.findViewById(R.id.act_conct_router_dest_txt_contatos);
-                act_conct_router_dest_txt_endereco=(TextView)itemView.findViewById(R.id.act_conct_router_dest_txt_endereco);
-                act_btn_shopper_orders=(Button)itemView.findViewById(R.id.act_btn_shopper_orders);
-
-
-
-
-
+                act_conct_router_dest_txt_uuid = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_uuid);
+                act_conct_router_dest_txt_name = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_name);
+                act_conct_router_dest_txt_name_distance = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_name_distance);
+                act_conct_router_dest_txt_email = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_email);
+                act_conct_router_dest_txt_contatos = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_contatos);
+                act_conct_router_dest_txt_endereco = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_endereco);
+                act_btn_shopper_orders = (Button) itemView.findViewById(R.id.act_btn_shopper_orders);
 
 
             }
