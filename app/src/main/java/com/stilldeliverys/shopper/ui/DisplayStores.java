@@ -56,7 +56,6 @@ public class DisplayStores extends BaseActivity {
     private CardView card_view_mensagem;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,7 +70,7 @@ public class DisplayStores extends BaseActivity {
         act_conct_router_list.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(self);
         act_conct_router_list.setLayoutManager(layoutManager);
-        Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE," ",false);
+        Libs.seek_configurations(self, ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE, " ", false);
         setting = (List<Settings>) settingsModel.find(ConstantesDbHelper.SETTINGS_ACESS_API_LOGIN.toUpperCase());
         JWT = Libs.jsonToObjectJwt(setting.get(0).getMetadados());
         Intent intent = getIntent();
@@ -96,7 +95,6 @@ public class DisplayStores extends BaseActivity {
         clear_supermarket_settings();
         set_barra_conteudo(true, false, false, "");
         load_stores_to_shoppe();
-
 
 
     }
@@ -135,7 +133,7 @@ public class DisplayStores extends BaseActivity {
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();
-                                Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE," ",false);
+                                Libs.seek_configurations(self, ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE, " ", false);
                                 Libs.deslogar(self);
                                 Intent intent = new Intent(self, MainActivity.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -173,8 +171,8 @@ public class DisplayStores extends BaseActivity {
                                 //recupera o array "elenco"
                                 JSONObject dados = new JSONObject(list_stores_shopper.getJSONArray("data").get(0).toString());
                                 String shopper = dados.getJSONObject("shopper").toString();
-                                Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE,"true",false);
-                                Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE,shopper,false);
+                                Libs.seek_configurations(self, ConstantesDbHelper.SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE, "true", false);
+                                Libs.seek_configurations(self, ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE, shopper, false);
                                 stores_shopper.add(list_stores_shopper.getJSONArray("data"));
                                 AdapterConductorAssociatedShopper = new AdapterAssociated(stores_shopper, events);
                                 act_conct_router_list.setAdapter(AdapterConductorAssociatedShopper);
@@ -306,5 +304,35 @@ public class DisplayStores extends BaseActivity {
             }
         }
 
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        AlertDialog alertDialog = new AlertDialog.Builder(self).create();
+        alertDialog.setTitle(getString(R.string.msn_title));
+        alertDialog.setMessage(getString(R.string.msn_finalizar_logout_app));
+        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                        Libs.seek_configurations(self, ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE, " ", false);
+                        Libs.deslogar(self);
+                        Intent intent = new Intent(self, MainActivity.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                        startActivity(intent);
+                        finish();
+                    }
+                });
+
+        alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "Cancelar",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+
+                    }
+                });
+
+        alertDialog.show();
     }
 }

@@ -241,8 +241,33 @@ public class DisplaysOrders extends BaseActivity {
 
     @Override
     public void onBackPressed() {
+        AlertDialog alertDialog = new AlertDialog.Builder(self).create();
+        alertDialog.setTitle(getString(R.string.msn_title));
+        alertDialog.setMessage(getString(R.string.str_deslo_supermarkts));
+        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                        Libs.seek_configurations(self, ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE, " ", false);
+                        Libs.deslogar(self);
+                        Intent intent = new Intent(self, DisplayStores.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                        startActivity(intent);
+                        finish();
+                    }
+                });
 
-        super.onBackPressed();
+        alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "Cancelar",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+
+                    }
+                });
+
+        alertDialog.show();
+
+
     }
 
     private void set_barra_conteudo(boolean barra, boolean conteudo, boolean messagens, String messagens_text) {
