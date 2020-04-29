@@ -161,6 +161,8 @@ public class Libs {
     }
 
 
+
+
     public static String MyGlobalLocation(Context context) {
         // instancia o service, GPSTracker gps
         Gps gps = new Gps(context);

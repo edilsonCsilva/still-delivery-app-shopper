@@ -16,9 +16,9 @@
     <string name="endere_o">Endereço</string>
     <string name="cep">Cep</string>
     <string name="cnpj">Cnpj</string>
-    <string name="avl_txt_supermarket_condutor">Condutor</string>
+    <string name="avl_txt_supermarket_condutor">Separador</string>
     <string name="avl_supermarket_conductor_nome">Nome</string>
-    <string name="avl_supermarket_conductor_contrato">CNH</string>
+    <string name="avl_supermarket_conductor_contrato">Rg/Cpf</string>
     <string name="email">Email</string>
     <string name="telefone">Telefone</string>
     <string name="avl_txt_supermarket_conductor_endere_o">Endereço</string>
