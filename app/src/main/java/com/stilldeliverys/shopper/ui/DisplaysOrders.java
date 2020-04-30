@@ -24,7 +24,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.stilldeliverys.shopper.R;
+import com.stilldeliverys.shopper.api.DriversEndPointActions;
 import com.stilldeliverys.shopper.core.BaseActivity;
+import com.stilldeliverys.shopper.core.Constantes;
 import com.stilldeliverys.shopper.core.ConstantesDbHelper;
 import com.stilldeliverys.shopper.core.Libs;
 import com.stilldeliverys.shopper.db.Settings;
@@ -32,9 +34,15 @@ import com.stilldeliverys.shopper.db.SettingsModel;
 import com.stilldeliverys.shopper.listener.OnClickedAndInteractingWithEventsBasic;
 
 import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class DisplaysOrders extends BaseActivity {
     private List<Settings> supermarkets_active;
@@ -64,18 +72,18 @@ public class DisplaysOrders extends BaseActivity {
         act_conct_shopper_order_list.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(self);
         act_conct_shopper_order_list.setLayoutManager(layoutManager);
-
-
-        setting = (List<Settings>) settingsModel.find(ConstantesDbHelper.SETTINGS_ACESS_API_LOGIN.toUpperCase());
+        setting = Libs.seek_configurations(self, ConstantesDbHelper.SETTINGS_ACESS_API_LOGIN.toUpperCase(), "", false);
         JWT = Libs.jsonToObjectJwt(setting.get(0).getMetadados());
         supermarkets_active = (List<Settings>) settingsModel.find(ConstantesDbHelper.SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_SUPERMARKS_SELECT.toUpperCase());
         set_barra_conteudo(true, false, false, "");
-
 
         events = new OnClickedAndInteractingWithEventsBasic() {
             @Override
             public void onClick(String type, String metadados) {
                 Toast.makeText(self, "", Toast.LENGTH_SHORT).show();
+
+
+                startActivity(new Intent(self, DisplaysTheOrderProducts.class));
 
 
             }
@@ -85,32 +93,59 @@ public class DisplaysOrders extends BaseActivity {
     }
 
     private void list_supermarket_orders() {
+        stores_shopper.clear();
+        act_conct_shopper_order_list.removeAllViews();
+
         try {
 
 
-            stores_shopper.add("dasdsa");
-            stores_shopper.add("dasdsa");
-            stores_shopper.add("dasdsa");
-            stores_shopper.add("dasdsa");
-            stores_shopper.add("dasdsa");
-            stores_shopper.add("dasdsa");
-            stores_shopper.add("dasdsa");
-            stores_shopper.add("dasdsa");
-            stores_shopper.add("dasdsa");
-            stores_shopper.add("dasdsa");
-            stores_shopper.add("dasdsa");
+            String supermarket_chain_id = (new JSONArray(supermarkets_active.get(0).getMetadados())).getJSONObject(0).getString("supermarket_chain_id");
+            //Validação do Supermercado selecionado
 
+            //Validação do Supermercado selecionado
+            new DriversEndPointActions().api().shopper_order_associates(JWT[0], supermarket_chain_id).
+                    enqueue(new Callback<ResponseBody>() {
+                        @Override
+                        public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+                            try {
+                                if (response.isSuccessful()) {
+                                    JSONArray requests_to_shopper = (new JSONObject(response.body().string())).getJSONArray("data");
+                                    int i=0;
+                                    while (i < requests_to_shopper.length()){
+                                         try{
+                                             JSONObject rows_order = new JSONObject(requests_to_shopper.get(i).toString());
+                                             stores_shopper.add(rows_order);
+                                         }catch (Exception e){e.printStackTrace();}
+                                        i++;
+                                    }
+                                    if(stores_shopper.size()!=0){
+                                        AdapterConductorAssociatedShopper = new AdapterAssociatedShopperOrder(stores_shopper, events);
+                                        act_conct_shopper_order_list.setAdapter(AdapterConductorAssociatedShopper);
+                                        Toast.makeText(self, "", Toast.LENGTH_SHORT).show();
+                                        set_barra_conteudo(false, true, false, "");
+                                    }else{
+                                        set_barra_conteudo(false, false, true, getString(R.string.str_not_order_shopper_select));
+                                    }
+                                    System.out.println("");
+                                } else {
+                                    set_barra_conteudo(false,false,true,getString(R.string.str_error_response_api));
+                                }
 
-            AdapterConductorAssociatedShopper = new AdapterAssociatedShopperOrder(stores_shopper, events);
-            act_conct_shopper_order_list.setAdapter(AdapterConductorAssociatedShopper);
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                                set_barra_conteudo(false,false,true,e.getMessage());
+                            }
+                        }
 
-            Toast.makeText(self, "", Toast.LENGTH_SHORT).show();
-            set_barra_conteudo(false, true, false, "");
+                        @Override
+                        public void onFailure(Call<ResponseBody> call, Throwable t) {
+                            t.printStackTrace();
+                            set_barra_conteudo(false,false,true,t.getMessage());
+                        }
+                    });
 
         } catch (Exception e) {
             set_barra_conteudo(false, false, true, e.getMessage());
-
-
         }
     }
 
@@ -148,8 +183,8 @@ public class DisplaysOrders extends BaseActivity {
         switch (item.getItemId()) {
 
             case R.id.end_application_logout_car:
-                  Intent settings_shopper = new Intent(self, ShopperSettings.class);
-                  startActivity(settings_shopper);
+                Intent settings_shopper = new Intent(self, ShopperSettings.class);
+                startActivity(settings_shopper);
                 return true;
             case R.id.perfil:
                 startActivity(new Intent(self, ShopperSettings.class));
@@ -168,7 +203,7 @@ public class DisplaysOrders extends BaseActivity {
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();
-                                Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE," ",false);
+                                Libs.seek_configurations(self, ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE, " ", false);
                                 Libs.deslogar(self);
                                 Intent intent = new Intent(self, DisplayStores.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -201,7 +236,7 @@ public class DisplaysOrders extends BaseActivity {
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();
-                                Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE," ",false);
+                                Libs.seek_configurations(self, ConstantesDbHelper.SETTINGS_DESCRIPTION_VEHICLES_SELECTED_CONDUCTOR_ACTIVE, " ", false);
                                 Libs.deslogar(self);
                                 Intent intent = new Intent(self, MainActivity.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -319,28 +354,33 @@ public class DisplaysOrders extends BaseActivity {
         public void onBindViewHolder(@NonNull AdapterAssociatedShopperOrder.Shopper holder, int position) {
 
             try {
-
-                JSONArray object = new JSONArray(this.objects.get(position).toString());
+                JSONObject object = new JSONObject(this.objects.get(position).toString());
                 final String json_object = this.objects.get(position).toString();
-           /*     JSONObject object1 = new JSONObject(object.get(0).toString());
 
-                holder.act_conct_router_dest_txt_uuid.setText(object1.getString("id"));
-                holder.act_conct_router_dest_txt_name.setText(object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("name"));
-                holder.act_conct_router_dest_txt_name_distance.setText(object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("name"));
 
-                holder.act_conct_router_dest_txt_email.setText(object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("email"));
-                holder.act_conct_router_dest_txt_contatos.setText(
-                        String.format("%s/%s", object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("cellphone"),
-                                object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("phone")));
-                holder.act_conct_router_dest_txt_endereco.setText(object1.getJSONObject("supermarket_chain").getJSONObject("person").getString("full_address"));
+                String adrress=String.format("%s , %s , %s - %s",object.getString("address"),object.getString("zip_code"),
+                        object.getString("city"),object.getString("state"));
+
+
+                String contatos=String.format("%s / %s",object.getString("phone"),object.getString("cellphone"));
+
+                holder.act_conct_router_dest_txt_uuid.setText(object.getString("id"));
+                holder.act_conct_router_dest_txt_total.setText(object.getString("total"));
+                holder.act_conct_router_dest_txt_name.setText(object.getString("freight_price"));
+
+                holder.act_conct_router_dest_txt_name_distance.setText(object.getString("name"));
+                holder.act_conct_router_dest_txt_email.setText(object.getString("email"));
+                holder.act_conct_router_dest_txt_contatos.setText(contatos);
+                holder.act_conct_router_dest_txt_endereco_cep.setText(object.getString("zip_code"));
+                holder.act_conct_router_dest_txt_endereco.setText(adrress);
 
 
                 holder.act_btn_shopper_orders.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        mOnClickedAndInteractingWithEvents.onClick(Constantes.action_supermarkets_selected, json_object);
+                        mOnClickedAndInteractingWithEvents.onClick(Constantes.action_supermarkets_order_selected_, json_object);
                     }
-                });*/
+                });
 
 
             } catch (Exception e) {
@@ -357,8 +397,9 @@ public class DisplaysOrders extends BaseActivity {
 
         public class Shopper extends RecyclerView.ViewHolder {
 
-            private TextView act_conct_router_dest_txt_uuid, act_conct_router_dest_txt_name, act_conct_router_dest_txt_name_distance,
-                    act_conct_router_dest_txt_email, act_conct_router_dest_txt_contatos, act_conct_router_dest_txt_endereco;
+            private TextView act_conct_router_dest_txt_uuid,act_conct_router_dest_txt_total, act_conct_router_dest_txt_name,
+                    act_conct_router_dest_txt_name_distance,act_conct_router_dest_txt_email, act_conct_router_dest_txt_contatos,
+                    act_conct_router_dest_txt_endereco_cep,act_conct_router_dest_txt_endereco;
 
             private Button act_btn_shopper_orders;
 
@@ -366,6 +407,7 @@ public class DisplaysOrders extends BaseActivity {
             public Shopper(View itemView) {
                 super(itemView);
 
+                act_conct_router_dest_txt_total=(TextView)itemView.findViewById(R.id.act_conct_router_dest_txt_total);
                 act_conct_router_dest_txt_uuid = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_uuid);
                 act_conct_router_dest_txt_name = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_name);
                 act_conct_router_dest_txt_name_distance = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_name_distance);
@@ -373,6 +415,8 @@ public class DisplaysOrders extends BaseActivity {
                 act_conct_router_dest_txt_contatos = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_contatos);
                 act_conct_router_dest_txt_endereco = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_endereco);
                 act_btn_shopper_orders = (Button) itemView.findViewById(R.id.act_btn_shopper_orders);
+                act_conct_router_dest_txt_endereco_cep=(TextView)itemView.findViewById(R.id.act_conct_router_dest_txt_endereco_cep);
+
 
 
             }

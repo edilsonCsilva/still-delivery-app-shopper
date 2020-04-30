@@ -126,6 +126,13 @@ public class DisplayStores extends BaseActivity {
 
         switch (item.getItemId()) {
 
+
+            case R.id.end_application_logout:
+
+                onBackPressed();
+
+                return true;
+
             case R.id.end_application:
                 alertDialog.setTitle(getString(R.string.msn_title));
                 alertDialog.setMessage(getString(R.string.msn_finalizar_logout_app));

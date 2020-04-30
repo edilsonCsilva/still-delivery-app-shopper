@@ -40,43 +40,43 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int app_picker_list_item_icon = 0x7f09004a;
-        public static final int app_picker_list_item_label = 0x7f09004b;
-        public static final int back_button = 0x7f09004e;
-        public static final int barcode_image_view = 0x7f09004f;
-        public static final int contents_supplement_text_view = 0x7f090075;
-        public static final int contents_text_view = 0x7f090076;
-        public static final int decode = 0x7f09007b;
-        public static final int decode_failed = 0x7f09007c;
-        public static final int decode_succeeded = 0x7f09007d;
-        public static final int done_button = 0x7f09008a;
-        public static final int format_text_view = 0x7f09009d;
-        public static final int help_contents = 0x7f0900a2;
-        public static final int image_view = 0x7f0900ab;
-        public static final int launch_product_query = 0x7f0900b2;
-        public static final int menu_encode = 0x7f0900da;
-        public static final int menu_help = 0x7f0900db;
-        public static final int menu_share = 0x7f0900dc;
-        public static final int meta_text_view = 0x7f0900de;
-        public static final int meta_text_view_label = 0x7f0900df;
-        public static final int preview_view = 0x7f0900f8;
-        public static final int quit = 0x7f0900fb;
-        public static final int restart_preview = 0x7f0900fd;
-        public static final int result_button_view = 0x7f0900fe;
-        public static final int result_view = 0x7f0900ff;
-        public static final int return_scan_result = 0x7f090100;
-        public static final int status_view = 0x7f09012e;
-        public static final int time_text_view = 0x7f090147;
-        public static final int type_text_view = 0x7f090155;
-        public static final int viewfinder_view = 0x7f09015d;
+        public static final int app_picker_list_item_icon = 0x7f09004c;
+        public static final int app_picker_list_item_label = 0x7f09004d;
+        public static final int back_button = 0x7f090050;
+        public static final int barcode_image_view = 0x7f090051;
+        public static final int contents_supplement_text_view = 0x7f090077;
+        public static final int contents_text_view = 0x7f090078;
+        public static final int decode = 0x7f09007d;
+        public static final int decode_failed = 0x7f09007e;
+        public static final int decode_succeeded = 0x7f09007f;
+        public static final int done_button = 0x7f09008d;
+        public static final int format_text_view = 0x7f0900a0;
+        public static final int help_contents = 0x7f0900a5;
+        public static final int image_view = 0x7f0900ae;
+        public static final int launch_product_query = 0x7f0900b5;
+        public static final int menu_encode = 0x7f0900dd;
+        public static final int menu_help = 0x7f0900de;
+        public static final int menu_share = 0x7f0900df;
+        public static final int meta_text_view = 0x7f0900e1;
+        public static final int meta_text_view_label = 0x7f0900e2;
+        public static final int preview_view = 0x7f0900fb;
+        public static final int quit = 0x7f0900fe;
+        public static final int restart_preview = 0x7f090100;
+        public static final int result_button_view = 0x7f090101;
+        public static final int result_view = 0x7f090102;
+        public static final int return_scan_result = 0x7f090103;
+        public static final int status_view = 0x7f090131;
+        public static final int time_text_view = 0x7f09014a;
+        public static final int type_text_view = 0x7f090158;
+        public static final int viewfinder_view = 0x7f090160;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int app_picker_list_item = 0x7f0c0023;
-        public static final int zxing_capture = 0x7f0c0057;
-        public static final int zxing_encode = 0x7f0c0058;
-        public static final int zxing_help = 0x7f0c0059;
+        public static final int app_picker_list_item = 0x7f0c0024;
+        public static final int zxing_capture = 0x7f0c0058;
+        public static final int zxing_encode = 0x7f0c0059;
+        public static final int zxing_help = 0x7f0c005a;
     }
     public static final class menu {
         private menu() {}
@@ -213,10 +213,10 @@ public final class R {
         public static final int result_uri = 0x7f100111;
         public static final int result_wifi = 0x7f100112;
         public static final int sbc_name = 0x7f100116;
-        public static final int wifi_changing_network = 0x7f10012c;
-        public static final int wifi_ssid_label = 0x7f10012d;
-        public static final int wifi_type_label = 0x7f10012e;
-        public static final int zxing_app_name = 0x7f10012f;
+        public static final int wifi_changing_network = 0x7f10012e;
+        public static final int wifi_ssid_label = 0x7f10012f;
+        public static final int wifi_type_label = 0x7f100130;
+        public static final int zxing_app_name = 0x7f100131;
     }
     public static final class xml {
         private xml() {}

@@ -229,6 +229,18 @@ public interface DriversEndPoint {
 
 
 
+    //{{urlApi}}/api/v1/shopper-order/associates
+
+
+    @GET("/api/v1/shopper-order/associates")
+    @Headers({"Content-Type: application/json", "Accept: application/json"})
+    Call<ResponseBody> shopper_order_associates(
+            @Header("Authorization") String authHeader,
+            @Query("supermarket_chain_id") String supermarket_chain_id
+    );
+
+
+
 
 
     //Domain

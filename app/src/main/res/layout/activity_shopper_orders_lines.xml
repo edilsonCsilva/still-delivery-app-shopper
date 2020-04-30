@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="5dp"
+    android:padding="10dp"
     android:orientation="vertical">
 
 
@@ -69,10 +69,6 @@
 
 
                 </LinearLayout>
-
-
-
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -83,24 +79,39 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:orientation="vertical">
 
 
                         <TextView
-                            android:id="@+id/act_conct_router_txt_supermarket"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center"
-                            android:layout_weight="1"
+                            android:padding="5dp"
                             android:textAlignment="center"
-                            android:textAppearance="@android:style/TextAppearance.Holo.Medium"
-                            android:textSize="38dp" />
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="64dp"
+                            android:textAlignment="center"
+                            android:textAppearance="@android:style/TextAppearance.Holo.Small"
+                            android:textSize="36dp" />
+
+
+
+
+
+
+
 
 
                     </LinearLayout>
 
 
+
                 </LinearLayout>
+
 
 
             </LinearLayout>
@@ -126,27 +137,96 @@
                 android:orientation="vertical">
 
 
-
                 <TextView
-                    android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Totais"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+
+
+                <LinearLayout
+                    android:padding="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Supermercado"/>
+                    android:orientation="horizontal">
 
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:textAlignment="center"
+                            android:layout_marginLeft="6dp"
+                            android:textSize="35dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Frete"/>
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:id="@+id/act_conct_router_dest_txt_name"
+                            android:layout_marginLeft="6dp"
+                            android:textSize="35dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="0.00"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+
+                            android:layout_marginLeft="6dp"
+                            android:textSize="35dp"
+                            android:textAlignment="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Total"/>
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:id="@+id/act_conct_router_dest_txt_total"
+                            android:layout_marginLeft="6dp"
+                            android:textSize="35dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="0.00"/>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"/>
 
                 <TextView
-                    android:id="@+id/act_conct_router_dest_txt_name"
-                    android:layout_marginLeft="6dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="******"/>
-
-
-                <TextView
-                    android:textAppearance="@android:style/TextAppearance.Holo.Medium"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Distância"/>
+                    android:text="Nome do Cliente"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
 
                 <TextView
@@ -154,7 +234,7 @@
                     android:layout_marginLeft="6dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="******"/>
+                    android:text=""/>
 
 
                 <TextView
@@ -169,7 +249,7 @@
                     android:layout_marginLeft="6dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="******"/>
+                    android:text=""/>
 
                 <TextView
                     android:textAppearance="@android:style/TextAppearance.Holo.Medium"
@@ -183,7 +263,7 @@
                     android:layout_marginLeft="6dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="******"/>
+                    android:text=""/>
 
 
                 <TextView
@@ -198,7 +278,23 @@
                     android:layout_marginLeft="6dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="******"/>
+                    android:text=""/>
+
+
+                <TextView
+                    android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cep" />
+
+
+                <TextView
+                    android:id="@+id/act_conct_router_dest_txt_endereco_cep"
+                    android:layout_marginLeft="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+
 
                 <Space
                     android:layout_width="match_parent"

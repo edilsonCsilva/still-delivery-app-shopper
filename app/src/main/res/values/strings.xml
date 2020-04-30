@@ -26,7 +26,7 @@
     <string name="avl_txt_supermarket_contatos">Telefones</string>
     <string name="msn_title">Mensagem.</string>
     <string name="msn_update_ok">Atualizado com Sucesso</string>
-    <string name="msn_update_error">Erro as Atualizar Registro.</string>
+    <string name="msn_update_error">Erro ao Atualizar Registro.</string>
     <string name="msn_finalizar_app">Deseja Finalizar Aplicativo ?</string>
     <string name="str_version">v.0.1</string>
     <string name="str_version_dvl">v.0.0</string>
@@ -80,6 +80,8 @@
     <string name="car_deseja_load">Deseja Carregar o Carro..?</string>
     <string name="sadad">dsadsad</string>
     <string name="order_do_pedido">Order do Pedido</string>
+    <string name="str_not_order_shopper_select">Não há Pedidos Associados para Mercado Selecionado..!</string>
+    <string name="str_total_shopper">Total</string>
 
 
 </resources>

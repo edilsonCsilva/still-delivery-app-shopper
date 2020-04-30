@@ -31,7 +31,7 @@ public class Constantes {
     public static String action_start_without_qr_code = "action_start_without_qr_code";
     public static String action_loads = "action_loads";
     public static String action_supermarkets_selected = "action_supermarkets_selected";
-
+    public static String action_supermarkets_order_selected_ = "action_supermarkets_order_selected_";
 
     public static String action_load_details = "action_load_details";
     //'not_started', 'started', 'paused', 'finished', 'canceled'

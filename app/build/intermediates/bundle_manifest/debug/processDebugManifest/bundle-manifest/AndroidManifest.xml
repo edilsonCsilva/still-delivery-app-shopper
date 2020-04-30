@@ -76,10 +76,21 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.stilldeliverys.shopper.ui.ShopperSettings" />
-        <activity android:name="com.stilldeliverys.shopper.ui.DisplaysOrders" />
-        <activity android:name="com.stilldeliverys.shopper.ui.StartApp" />
-        <activity android:name="com.stilldeliverys.shopper.ui.DisplayStores" />
+        <activity
+            android:name="com.stilldeliverys.shopper.ui.DisplaysTheOrderProducts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.stilldeliverys.shopper.ui.ShopperSettings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.stilldeliverys.shopper.ui.DisplaysOrders"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.stilldeliverys.shopper.ui.StartApp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.stilldeliverys.shopper.ui.DisplayStores"
+            android:screenOrientation="portrait" />
         <activity android:name="com.stilldeliverys.shopper.ui.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

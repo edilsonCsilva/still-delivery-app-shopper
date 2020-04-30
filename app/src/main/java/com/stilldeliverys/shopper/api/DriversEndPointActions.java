@@ -132,6 +132,11 @@ public class DriversEndPointActions {
     }
 
 
+    public  DriversEndPoint shopper_order_associates(){
+        return  getClient().create(DriversEndPoint.class);
+    }
+
+
 
 
     ////////////////////////////////////
