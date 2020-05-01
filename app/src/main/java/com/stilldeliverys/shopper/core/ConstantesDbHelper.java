@@ -38,6 +38,8 @@ public class ConstantesDbHelper {
     public static String ROUTER_ITENS_METADADOS = "data";
 
     public static String SETTINGS_IS_LOGIN_ACTIVE_MANTER = "is_login_active_manter_acess";
+    public static String SETTINGS_IS_ORDER_ACTIVE_MANTER = "is_order_active_manter";
+    public static String SETTINGS_IS_PAGER_ACTIVE_MANTER = "is_pager_active_manter";
 
 
     public static String SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE = "is_login_active";

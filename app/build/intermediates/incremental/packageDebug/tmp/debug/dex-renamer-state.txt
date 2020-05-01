@@ -1,4 +1,4 @@
-#Thu Apr 30 14:35:25 BRT 2020
+#Fri May 01 13:14:29 BRT 2020
 base.0=/home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

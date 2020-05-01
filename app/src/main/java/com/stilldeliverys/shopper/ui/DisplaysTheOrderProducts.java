@@ -55,7 +55,7 @@ public class DisplaysTheOrderProducts extends BaseActivity {
         card_view_mensagem_conteudo = (TextView) findViewById(R.id.card_view_mensagem_conteudo);
         card_view_main = (CardView) findViewById(R.id.card_view_main);
         act_conct_shopper_order_list = (RecyclerView) findViewById(R.id.act_conct_router_list);
-git         act_conct_shopper_order_list.setHasFixedSize(true);
+        act_conct_shopper_order_list.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(self);
         act_conct_shopper_order_list.setLayoutManager(layoutManager);
 
@@ -64,7 +64,8 @@ git         act_conct_shopper_order_list.setHasFixedSize(true);
         JWT = Libs.jsonToObjectJwt(setting.get(0).getMetadados());
         supermarkets_active = (List<Settings>) settingsModel.find(ConstantesDbHelper.SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_SUPERMARKS_SELECT.toUpperCase());
         set_barra_conteudo(true, false, false, "");
-
+        List<Settings> settingss = Libs.seek_configurations(self, ConstantesDbHelper.SETTINGS_IS_ORDER_ACTIVE_MANTER,"", false);
+        Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_IS_PAGER_ACTIVE_MANTER,this.getClass().getName(),false);
 
         events = new OnClickedAndInteractingWithEventsBasic() {
             @Override

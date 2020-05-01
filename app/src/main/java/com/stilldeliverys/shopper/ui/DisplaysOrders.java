@@ -76,13 +76,14 @@ public class DisplaysOrders extends BaseActivity {
         JWT = Libs.jsonToObjectJwt(setting.get(0).getMetadados());
         supermarkets_active = (List<Settings>) settingsModel.find(ConstantesDbHelper.SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_SUPERMARKS_SELECT.toUpperCase());
         set_barra_conteudo(true, false, false, "");
+        Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_IS_ORDER_ACTIVE_MANTER," ",false);
+        Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_IS_PAGER_ACTIVE_MANTER,this.getClass().getName(),false);
 
         events = new OnClickedAndInteractingWithEventsBasic() {
             @Override
             public void onClick(String type, String metadados) {
                 Toast.makeText(self, "", Toast.LENGTH_SHORT).show();
-
-
+                Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_IS_ORDER_ACTIVE_MANTER,metadados,false);
                 startActivity(new Intent(self, DisplaysTheOrderProducts.class));
 
 

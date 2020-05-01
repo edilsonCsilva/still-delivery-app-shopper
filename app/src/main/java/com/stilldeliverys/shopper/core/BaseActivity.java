@@ -165,6 +165,18 @@ public class BaseActivity extends AppCompatActivity {
                 settingsModel.insert(new Settings(ConstantesDbHelper.SETTINGS_IS_LOGIN_ACTIVE_MANTER.toUpperCase(),""));
             }
 
+            setting =(List<Settings>)settingsModel.find(ConstantesDbHelper.SETTINGS_IS_ORDER_ACTIVE_MANTER.toUpperCase());
+            if(setting.size()==0){
+                settingsModel.insert(new Settings(ConstantesDbHelper.SETTINGS_IS_ORDER_ACTIVE_MANTER.toUpperCase(),""));
+            }
+
+            setting =(List<Settings>)settingsModel.find(ConstantesDbHelper.SETTINGS_IS_PAGER_ACTIVE_MANTER.toUpperCase());
+            if(setting.size()==0){
+                settingsModel.insert(new Settings(ConstantesDbHelper.SETTINGS_IS_PAGER_ACTIVE_MANTER.toUpperCase(),""));
+            }
+
+
+
 
 
         }catch (Exception e){
