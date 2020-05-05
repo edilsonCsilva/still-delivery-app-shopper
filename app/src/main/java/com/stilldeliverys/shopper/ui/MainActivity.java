@@ -71,6 +71,18 @@ public class MainActivity extends BaseActivity {
         br_status = findViewById(R.id.br_status);
         br_status.setVisibility(View.GONE);
 
+
+
+
+
+
+
+        txt_main_user_input.setText("shopper@still.com");
+                txt_main_user_password_entry.setText("shopper123!@#");
+
+
+
+
         List<Settings> url = (List<Settings>) settingsModel.find(ConstantesDbHelper.SETTINGS_SERVER_API.toUpperCase());
         if (url.size() == 1) {
             if (url.get(0).getMetadados().trim().isEmpty()) {

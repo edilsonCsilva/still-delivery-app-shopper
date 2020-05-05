@@ -3,6 +3,7 @@ package com.stilldeliverys.shopper.ui;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -15,11 +16,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.stilldeliverys.shopper.R;
+import com.stilldeliverys.shopper.api.DriversEndPointActions;
 import com.stilldeliverys.shopper.core.BaseActivity;
 import com.stilldeliverys.shopper.core.ConstantesDbHelper;
 import com.stilldeliverys.shopper.core.Libs;
@@ -27,8 +30,16 @@ import com.stilldeliverys.shopper.db.Settings;
 import com.stilldeliverys.shopper.db.SettingsModel;
 import com.stilldeliverys.shopper.listener.OnClickedAndInteractingWithEventsBasic;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class DisplaysTheOrderProducts extends BaseActivity {
     private List<Settings> supermarkets_active;
@@ -37,11 +48,12 @@ public class DisplaysTheOrderProducts extends BaseActivity {
     private RecyclerView.LayoutManager layoutManager;
     private OnClickedAndInteractingWithEventsBasic events;
     private List<Settings> setting = null;
-    private List<Object> stores_shopper = new ArrayList<Object>();
+    private List<Object> stores_shopper_productors = new ArrayList<Object>();
     private CardView card_view_main;
     private ProgressBar br_status;
     private TextView card_view_mensagem_conteudo;
     private CardView card_view_mensagem;
+    private  List<Settings>  order_selected;
 
 
     @Override
@@ -64,7 +76,7 @@ public class DisplaysTheOrderProducts extends BaseActivity {
         JWT = Libs.jsonToObjectJwt(setting.get(0).getMetadados());
         supermarkets_active = (List<Settings>) settingsModel.find(ConstantesDbHelper.SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_SUPERMARKS_SELECT.toUpperCase());
         set_barra_conteudo(true, false, false, "");
-        List<Settings> settingss = Libs.seek_configurations(self, ConstantesDbHelper.SETTINGS_IS_ORDER_ACTIVE_MANTER,"", false);
+        order_selected = Libs.seek_configurations(self, ConstantesDbHelper.SETTINGS_IS_ORDER_ACTIVE_MANTER,"", false);
         Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_IS_PAGER_ACTIVE_MANTER,this.getClass().getName(),false);
 
         events = new OnClickedAndInteractingWithEventsBasic() {
@@ -77,6 +89,9 @@ public class DisplaysTheOrderProducts extends BaseActivity {
         };
 
     }
+
+
+
 
 
     @Override
@@ -203,6 +218,74 @@ public class DisplaysTheOrderProducts extends BaseActivity {
     }
 
     private void list_supermarket_orders_productos() {
+
+        try{
+
+            JSONObject json_to_obj = new JSONObject(order_selected.get(0).getMetadados());
+            String order_uuid = json_to_obj.getString("order_uuid");
+
+            //busca a lista de produtos
+
+            new DriversEndPointActions().api().order_show(JWT[0],order_uuid).
+                    enqueue(new Callback<ResponseBody>() {
+                        @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+                        @Override
+                        public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+
+                            if(response.isSuccessful()){
+                                try {
+
+
+                                    JSONArray orders_products =(new JSONObject(response.body().string())).getJSONArray("order_products");
+                                    int total=orders_products.length();
+                                    for(int i=0;i < total;i++){
+                                        try{
+
+                                            System.out.println("4### - "+orders_products.getJSONObject(i).getString("product_id"));
+
+                                            System.out.println("4### - "+orders_products.getJSONObject(i).getJSONObject("product").getString("name"));
+
+
+
+
+                                        }catch (Exception e){}
+                                    }
+
+
+
+
+/*
+
+                                    ("order_products"));*/
+
+
+
+
+
+                                    System.out.println("");
+
+                                }catch (Exception e){
+                                    e.printStackTrace();
+                                    set_barra_conteudo(false,false,true,e.getMessage());
+                                }
+
+                            }
+                            
+                        }
+
+                        @Override
+                        public void onFailure(Call<ResponseBody> call, Throwable t) {
+
+                        }
+                    });
+
+
+
+            //busca a lista de produtos
+            System.out.println("");
+
+        }catch (Exception e){ set_barra_conteudo(false,false,true,e.getMessage());}
+
     }
 
 
