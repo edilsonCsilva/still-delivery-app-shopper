@@ -16,9 +16,9 @@
     <string name="endere_o">Endereço</string>
     <string name="cep">Cep</string>
     <string name="cnpj">Cnpj</string>
-    <string name="avl_txt_supermarket_condutor">Condutor</string>
+    <string name="avl_txt_supermarket_condutor">Separador</string>
     <string name="avl_supermarket_conductor_nome">Nome</string>
-    <string name="avl_supermarket_conductor_contrato">CNH</string>
+    <string name="avl_supermarket_conductor_contrato">Rg/Cpf</string>
     <string name="email">Email</string>
     <string name="telefone">Telefone</string>
     <string name="avl_txt_supermarket_conductor_endere_o">Endereço</string>
@@ -26,7 +26,7 @@
     <string name="avl_txt_supermarket_contatos">Telefones</string>
     <string name="msn_title">Mensagem.</string>
     <string name="msn_update_ok">Atualizado com Sucesso</string>
-    <string name="msn_update_error">Erro as Atualizar Registro.</string>
+    <string name="msn_update_error">Erro ao Atualizar Registro.</string>
     <string name="msn_finalizar_app">Deseja Finalizar Aplicativo ?</string>
     <string name="str_version">v.0.1</string>
     <string name="str_version_dvl">v.0.0</string>
@@ -79,6 +79,9 @@
     <string name="descri_o_do_produto">Descrição do Produto</string>
     <string name="car_deseja_load">Deseja Carregar o Carro..?</string>
     <string name="sadad">dsadsad</string>
+    <string name="order_do_pedido">Order do Pedido</string>
+    <string name="str_not_order_shopper_select">Não há Pedidos Associados para Mercado Selecionado..!</string>
+    <string name="str_total_shopper">Total</string>
 
 
 </resources>

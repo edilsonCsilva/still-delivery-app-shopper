@@ -31,6 +31,8 @@ public class BaseActivity extends AppCompatActivity {
     protected SettingsModel settingsModel;
     protected Context self;
 
+    protected String[] JWT;
+    protected List<Settings> setting;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
@@ -162,6 +164,18 @@ public class BaseActivity extends AppCompatActivity {
             if(setting.size()==0){
                 settingsModel.insert(new Settings(ConstantesDbHelper.SETTINGS_IS_LOGIN_ACTIVE_MANTER.toUpperCase(),""));
             }
+
+            setting =(List<Settings>)settingsModel.find(ConstantesDbHelper.SETTINGS_IS_ORDER_ACTIVE_MANTER.toUpperCase());
+            if(setting.size()==0){
+                settingsModel.insert(new Settings(ConstantesDbHelper.SETTINGS_IS_ORDER_ACTIVE_MANTER.toUpperCase(),""));
+            }
+
+            setting =(List<Settings>)settingsModel.find(ConstantesDbHelper.SETTINGS_IS_PAGER_ACTIVE_MANTER.toUpperCase());
+            if(setting.size()==0){
+                settingsModel.insert(new Settings(ConstantesDbHelper.SETTINGS_IS_PAGER_ACTIVE_MANTER.toUpperCase(),""));
+            }
+
+
 
 
 

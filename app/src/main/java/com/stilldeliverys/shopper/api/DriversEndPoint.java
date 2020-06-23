@@ -89,12 +89,6 @@ public interface DriversEndPoint {
     Call<ResponseBody> conductor_vehicle_event_show(
             @Path("uuid") String uuid
     );
-
-
-
-
-
-
     @GET("/api/v1/conductor-route/associated")
     //@FormUrlEncoded
    // @HTTP(method = "GET", path = "/api/v1/conductor-route/associated", hasBody = true)
@@ -103,10 +97,6 @@ public interface DriversEndPoint {
             @Header("Authorization") String authHeader,
             @Query("supermarket_chain_id") String entity_id
     );
-
-
-
-
     //Domain
     //conductor Router
     @GET("/api/v1/route-destination/all")
@@ -229,6 +219,25 @@ public interface DriversEndPoint {
 
 
     ///api/v1/route-destination/all
+
+    //{{urlApi}}/api/v1/shopper-supermarket-chain/associated
+    @GET("/api/v1/shopper-supermarket-chain/associated")
+    @Headers({"Content-Type: application/json", "Accept: application/json"})
+    Call<ResponseBody> shopper_supermarket_chain_associated(
+            @Header("Authorization") String authHeader
+    );
+
+
+
+    //{{urlApi}}/api/v1/shopper-order/associates
+
+
+    @GET("/api/v1/shopper-order/associates")
+    @Headers({"Content-Type: application/json", "Accept: application/json"})
+    Call<ResponseBody> shopper_order_associates(
+            @Header("Authorization") String authHeader,
+            @Query("supermarket_chain_id") String supermarket_chain_id
+    );
 
 
 

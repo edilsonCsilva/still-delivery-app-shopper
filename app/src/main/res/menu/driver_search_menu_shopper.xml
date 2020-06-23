@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+
+        android:visible="false"
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search_title"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom"/>
+
+
+
+
+    <item android:id="@+id/open_qrcode"
+        android:visible="false"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/qrcode"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/perfil"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/new_game"
+        app:showAsAction="ifRoom" />
+
+
+
+
+
+
+    <item
+
+        android:id="@+id/end_application_logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        app:showAsAction="always"
+        android:title="@string/close" />
+
+
+    <item
+        android:id="@+id/end_application_logout_car"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Informações do Shopper" />
+
+
+
+    <item
+
+        android:id="@+id/end_application_logout_supermerkts"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="Sair do Mercado" />
+
+
+
+
+
+
+    <item  android:id="@+id/end_application"
+        android:icon="@drawable/ic_help"
+        android:title="@string/close" />
+
+</menu>

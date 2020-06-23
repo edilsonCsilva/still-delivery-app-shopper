@@ -38,12 +38,18 @@ public class ConstantesDbHelper {
     public static String ROUTER_ITENS_METADADOS = "data";
 
     public static String SETTINGS_IS_LOGIN_ACTIVE_MANTER = "is_login_active_manter_acess";
+    public static String SETTINGS_IS_ORDER_ACTIVE_MANTER = "is_order_active_manter";
+    public static String SETTINGS_IS_PAGER_ACTIVE_MANTER = "is_pager_active_manter";
 
 
     public static String SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE = "is_login_active";
     public static String SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_TYPE = "is_login_active_type";
     public static String SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_SUPERMARKS_SELECT = "is_login_active_supermarkts";
     public static String SETTINGS_DESCRIPTION_IS_LOGIN_ACTIVE_CAR_SELECT = "is_login_active_car_selecionado";
+
+
+
+
     public static String SETTINGS_ACESS_API_LOGIN = "jwt";
     public static String SETTINGS_METADATA = "metadados";
     public static String SETTINGS_SERVER_API = "url_api";
