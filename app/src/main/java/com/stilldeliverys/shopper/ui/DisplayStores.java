@@ -167,7 +167,6 @@ public class DisplayStores extends BaseActivity {
 
     private void load_stores_to_shoppe() {
 
-
         new DriversEndPointActions().api().shopper_supermarket_chain_associated(JWT[0]).
                 enqueue(new Callback<ResponseBody>() {
                     @Override
@@ -247,10 +246,10 @@ public class DisplayStores extends BaseActivity {
             return new Shopper(v);
         }
 
+
         @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
         @Override
         public void onBindViewHolder(@NonNull Shopper holder, int position) {
-
             try {
 
                 JSONArray object = new JSONArray(this.objects.get(position).toString());

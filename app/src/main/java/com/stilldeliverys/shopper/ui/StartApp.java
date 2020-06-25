@@ -21,6 +21,8 @@ import com.stilldeliverys.shopper.db.SettingsModel;
 
 import java.util.List;
 
+
+
 public class StartApp extends AppCompatActivity{
 
 

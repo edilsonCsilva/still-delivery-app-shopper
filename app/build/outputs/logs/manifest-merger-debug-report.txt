@@ -1,634 +1,634 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:83:9-91:20
+INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:83:9-91:20
 	android:grantUriPermissions
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:87:13-47
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:87:13-47
 	android:authorities
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:85:13-60
+		INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:85:13-60
 	android:exported
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:86:13-37
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:86:13-37
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:84:13-62
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:84:13-62
 manifest
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
-MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:17:1-30:12
-MERGED from [com.basgeekball:awesome-validation:2.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/8453adda785efbabc9a2ce8129888e22/jetified-awesome-validation-2.0/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.material:material:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/af83585147f242818022c967dc6bd4aa/legacy-support-v13-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:17:1-37:12
-MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/55371288040cdb5dad3da4f66bc5e08a/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/9db3669addb034d01bb27fc8c0803db4/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/f8e2da636da8e9e0d8468fb16d88ccb9/jetified-play-services-stats-16.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/9792f7303fa8575fb1374e0d4e338168/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/0362ff4d8672321347a402c32368f192/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/d2cae29ea156ecc28d8f5099dc624ed2/transition-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/dbbcc99072b5616db9e0106b8ed65934/activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:2:1-19:12
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/0f533103f57f1b229e978ebb75162b3e/jetified-circleimageview-2.1.0/AndroidManifest.xml:2:1-11:12
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:17:1-48:12
-MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/b0a3249603c9c83e5913c9c413b46dfc/stetho-okhttp3-1.5.1/AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.stetho:stetho:1.5.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf61d13e018a80904b4805cf98b4d064/jetified-stetho-1.5.1/AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/ffa46f3d6480310395b7b525cf59ccde/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/64ed055c454b36433d45a77285ee24d6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/dev2/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:2:1-13:12
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:45:1-56:12
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/ebf8d4c55ea93458efbd7990ff627192/jetified-answers-1.4.1/AndroidManifest.xml:2:1-13:12
-MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:22:1-33:12
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
+INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
+INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
+INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
+MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/0eb2fcb0be944a99f5058d6207af9666/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:17:1-30:12
+MERGED from [com.basgeekball:awesome-validation:2.0] /home/edi/.gradle/caches/transforms-2/files-2.1/7fcae10c3330222852876102c92bba72/jetified-awesome-validation-2.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/edi/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/af83585147f242818022c967dc6bd4aa/legacy-support-v13-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/edi/.gradle/caches/transforms-2/files-2.1/0e637258ecf83b66d5bb7dd41e4f4e3c/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/052c46b0defa5351aee5fb407073c9b9/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/edi/.gradle/caches/transforms-2/files-2.1/4eab28438b6c65d730b2de6205d53028/jetified-firebase-common-16.0.3/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/9357bf158e50845fdb613cdd914f7cae/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bb855a4d289342fb638640181e4a3f51/jetified-play-services-stats-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/6fd1a94b5b5355a2ec40c22cf0934d8e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/0362ff4d8672321347a402c32368f192/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/d2cae29ea156ecc28d8f5099dc624ed2/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/dbbcc99072b5616db9e0106b8ed65934/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:2:1-19:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/5a6b7a0d06635f9bb44017fc8f9e678f/jetified-circleimageview-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:17:1-48:12
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /home/edi/.gradle/caches/transforms-2/files-2.1/b0a3249603c9c83e5913c9c413b46dfc/stetho-okhttp3-1.5.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.stetho:stetho:1.5.1] /home/edi/.gradle/caches/transforms-2/files-2.1/71c1ff3cc65809512708e8cf15d3a240/jetified-stetho-1.5.1/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/ffa46f3d6480310395b7b525cf59ccde/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/64ed055c454b36433d45a77285ee24d6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/edi/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/7d54686fa5db5c0e7d145bed5ec5c86e/jetified-answers-1.4.1/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:22:1-33:12
+INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
+INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
+INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
 	package
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:4:5-41
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:4:5-41
+		INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
+		INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:1-94:12
+		INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:15:5-79
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:15:5-79
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:15:22-76
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:15:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:16:5-68
-MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:16:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:16:22-65
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:16:22-65
 uses-permission#com.google.android.wearable.permission.RECEIVE_COMPLICATION_DATA
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:17:5-104
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:17:5-104
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:17:22-101
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:17:22-101
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:18:5-77
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:18:5-77
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:18:22-74
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:18:22-74
 uses-permission#android.permission.INTERNET
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:19:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:23:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/dev2/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/dev2/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/ebf8d4c55ea93458efbd7990ff627192/jetified-answers-1.4.1/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/ebf8d4c55ea93458efbd7990ff627192/jetified-answers-1.4.1/AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:29:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:29:5-67
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/edi/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/edi/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/7d54686fa5db5c0e7d145bed5ec5c86e/jetified-answers-1.4.1/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/7d54686fa5db5c0e7d145bed5ec5c86e/jetified-answers-1.4.1/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:19:22-64
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:19:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:20:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:22:5-79
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:20:22-76
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:20:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:21:5-81
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:21:5-81
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:21:22-78
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:21:22-78
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:22:5-81
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:22:22-78
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:22:22-78
 uses-permission#android.permission.CAMERA
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:23:5-65
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:19:3-62
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:19:3-62
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:23:5-65
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:19:3-62
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:19:3-62
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:23:22-62
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:23:22-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:24:5-80
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:24:5-80
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:24:22-77
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:24:22-77
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:25:5-75
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:25:5-75
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:25:22-72
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:25:22-72
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:26:5-81
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:26:5-81
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:26:22-78
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:26:22-78
 uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:27:5-88
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:27:5-88
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:27:22-85
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:27:22-85
 uses-permission#android.permission.LOCATION_HARDWARE
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:28:5-30:47
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:28:5-30:47
 	tools:ignore
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:30:9-44
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:29:9-60
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:29:9-60
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:31:5-78
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:31:5-78
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:31:22-75
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:31:22-75
 application
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:33:5-92:19
-MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:28:5-20
-MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:28:5-20
-MERGED from [com.google.android.material:material:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/55371288040cdb5dad3da4f66bc5e08a/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/55371288040cdb5dad3da4f66bc5e08a/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/9db3669addb034d01bb27fc8c0803db4/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/9db3669addb034d01bb27fc8c0803db4/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/f8e2da636da8e9e0d8468fb16d88ccb9/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/f8e2da636da8e9e0d8468fb16d88ccb9/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/9792f7303fa8575fb1374e0d4e338168/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/9792f7303fa8575fb1374e0d4e338168/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:11:5-17:19
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:11:5-17:19
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/0f533103f57f1b229e978ebb75162b3e/jetified-circleimageview-2.1.0/AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/0f533103f57f1b229e978ebb75162b3e/jetified-circleimageview-2.1.0/AndroidManifest.xml:9:5-20
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:43:3-46:17
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:43:3-46:17
-MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/b0a3249603c9c83e5913c9c413b46dfc/stetho-okhttp3-1.5.1/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/b0a3249603c9c83e5913c9c413b46dfc/stetho-okhttp3-1.5.1/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.stetho:stetho:1.5.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf61d13e018a80904b4805cf98b4d064/jetified-stetho-1.5.1/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.stetho:stetho:1.5.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf61d13e018a80904b4805cf98b4d064/jetified-stetho-1.5.1/AndroidManifest.xml:11:5-20
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/dev2/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/dev2/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/ebf8d4c55ea93458efbd7990ff627192/jetified-answers-1.4.1/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/ebf8d4c55ea93458efbd7990ff627192/jetified-answers-1.4.1/AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:31:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:31:5-20
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:33:5-92:19
+MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/0eb2fcb0be944a99f5058d6207af9666/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:28:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/0eb2fcb0be944a99f5058d6207af9666/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/edi/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/edi/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/edi/.gradle/caches/transforms-2/files-2.1/0e637258ecf83b66d5bb7dd41e4f4e3c/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/edi/.gradle/caches/transforms-2/files-2.1/0e637258ecf83b66d5bb7dd41e4f4e3c/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/052c46b0defa5351aee5fb407073c9b9/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/052c46b0defa5351aee5fb407073c9b9/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/edi/.gradle/caches/transforms-2/files-2.1/4eab28438b6c65d730b2de6205d53028/jetified-firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/edi/.gradle/caches/transforms-2/files-2.1/4eab28438b6c65d730b2de6205d53028/jetified-firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/9357bf158e50845fdb613cdd914f7cae/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/9357bf158e50845fdb613cdd914f7cae/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bb855a4d289342fb638640181e4a3f51/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bb855a4d289342fb638640181e4a3f51/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/6fd1a94b5b5355a2ec40c22cf0934d8e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/6fd1a94b5b5355a2ec40c22cf0934d8e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:11:5-17:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/5a6b7a0d06635f9bb44017fc8f9e678f/jetified-circleimageview-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/5a6b7a0d06635f9bb44017fc8f9e678f/jetified-circleimageview-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:43:3-46:17
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:43:3-46:17
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /home/edi/.gradle/caches/transforms-2/files-2.1/b0a3249603c9c83e5913c9c413b46dfc/stetho-okhttp3-1.5.1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /home/edi/.gradle/caches/transforms-2/files-2.1/b0a3249603c9c83e5913c9c413b46dfc/stetho-okhttp3-1.5.1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.1] /home/edi/.gradle/caches/transforms-2/files-2.1/71c1ff3cc65809512708e8cf15d3a240/jetified-stetho-1.5.1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.1] /home/edi/.gradle/caches/transforms-2/files-2.1/71c1ff3cc65809512708e8cf15d3a240/jetified-stetho-1.5.1/AndroidManifest.xml:11:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/edi/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/edi/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/7d54686fa5db5c0e7d145bed5ec5c86e/jetified-answers-1.4.1/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/7d54686fa5db5c0e7d145bed5ec5c86e/jetified-answers-1.4.1/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:31:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:38:9-35
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:38:9-35
 	android:label
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:36:9-41
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:36:9-41
 	tools:ignore
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:40:9-48
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:40:9-48
 	android:roundIcon
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:37:9-54
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:37:9-54
 	android:icon
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:35:9-43
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:35:9-43
 	android:allowBackup
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:34:9-35
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:34:9-35
 	android:theme
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:39:9-40
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:39:9-40
 activity#com.stilldeliverys.shopper.ui.DisplaysTheOrderProducts
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:9-111
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:9-111
 	android:screenOrientation
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:63-99
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:63-99
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:19-62
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:41:19-62
 activity#com.stilldeliverys.shopper.ui.ShopperSettings
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:9-93
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:9-93
 	android:screenOrientation
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:54-90
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:54-90
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:19-53
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:42:19-53
 activity#com.stilldeliverys.shopper.ui.DisplaysOrders
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:9-92
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:9-92
 	android:screenOrientation
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:54-90
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:54-90
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:19-52
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:43:19-52
 activity#com.stilldeliverys.shopper.ui.StartApp
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:44:9-86
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:44:9-86
 	android:screenOrientation
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:44:48-84
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:44:48-84
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:44:19-46
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:44:19-46
 activity#com.stilldeliverys.shopper.ui.DisplayStores
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:9-92
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:9-92
 	android:screenOrientation
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:53-89
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:53-89
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:19-51
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:45:19-51
 activity#com.stilldeliverys.shopper.ui.MainActivity
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:46:9-57:20
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:46:9-57:20
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:46:19-50
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:46:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:47:13-51:29
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:47:13-51:29
 action#android.intent.action.MAIN
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:48:17-69
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:48:25-66
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:50:17-77
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:50:27-74
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:50:27-74
 intent-filter#action:name:com.google.zxing.client.android.SCAN+category:name:android.intent.category.DEFAULT
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:52:13-56:29
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:52:13-56:29
 action#com.google.zxing.client.android.SCAN
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:53:17-79
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:53:17-79
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:53:25-76
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:53:25-76
 category#android.intent.category.DEFAULT
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:55:17-76
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:55:17-76
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:55:27-73
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:55:27-73
 uses-library#org.apache.http.legacy
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:59:9-61:40
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:59:9-61:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 	android:required
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:61:13-37
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:60:13-50
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:60:13-50
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:70:9-72:55
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:70:9-72:55
 	android:value
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:72:13-52
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:72:13-52
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:71:13-58
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:71:13-58
 meta-data#com.google.android.gms.version
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:76:9-78:69
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/9792f7303fa8575fb1374e0d4e338168/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/9792f7303fa8575fb1374e0d4e338168/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:76:9-78:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/6fd1a94b5b5355a2ec40c22cf0934d8e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/6fd1a94b5b5355a2ec40c22cf0934d8e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:78:13-66
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:78:13-66
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:77:13-58
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:77:13-58
 meta-data#io.fabric.ApiKey
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:79:9-81:72
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:79:9-81:72
 	android:value
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:81:13-69
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:81:13-69
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:80:13-44
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:80:13-44
 uses-sdk
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:22:5-24:41
-MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:22:5-24:41
-MERGED from [com.basgeekball:awesome-validation:2.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/8453adda785efbabc9a2ce8129888e22/jetified-awesome-validation-2.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.basgeekball:awesome-validation:2.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/8453adda785efbabc9a2ce8129888e22/jetified-awesome-validation-2.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.material:material:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/af83585147f242818022c967dc6bd4aa/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/af83585147f242818022c967dc6bd4aa/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/55371288040cdb5dad3da4f66bc5e08a/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/55371288040cdb5dad3da4f66bc5e08a/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/9db3669addb034d01bb27fc8c0803db4/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/9db3669addb034d01bb27fc8c0803db4/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/f8e2da636da8e9e0d8468fb16d88ccb9/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/f8e2da636da8e9e0d8468fb16d88ccb9/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/9792f7303fa8575fb1374e0d4e338168/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/9792f7303fa8575fb1374e0d4e338168/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/0362ff4d8672321347a402c32368f192/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/0362ff4d8672321347a402c32368f192/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/d2cae29ea156ecc28d8f5099dc624ed2/transition-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/d2cae29ea156ecc28d8f5099dc624ed2/transition-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/dbbcc99072b5616db9e0106b8ed65934/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/dbbcc99072b5616db9e0106b8ed65934/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:7:5-43
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/0f533103f57f1b229e978ebb75162b3e/jetified-circleimageview-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/0f533103f57f1b229e978ebb75162b3e/jetified-circleimageview-2.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:23:3-70
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:23:3-70
-MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/b0a3249603c9c83e5913c9c413b46dfc/stetho-okhttp3-1.5.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/b0a3249603c9c83e5913c9c413b46dfc/stetho-okhttp3-1.5.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.stetho:stetho:1.5.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf61d13e018a80904b4805cf98b4d064/jetified-stetho-1.5.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.stetho:stetho:1.5.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf61d13e018a80904b4805cf98b4d064/jetified-stetho-1.5.1/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/ffa46f3d6480310395b7b525cf59ccde/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/ffa46f3d6480310395b7b525cf59ccde/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/64ed055c454b36433d45a77285ee24d6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/64ed055c454b36433d45a77285ee24d6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/dev2/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/dev2/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/ebf8d4c55ea93458efbd7990ff627192/jetified-answers-1.4.1/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/ebf8d4c55ea93458efbd7990ff627192/jetified-answers-1.4.1/AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:27:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:27:5-43
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/0eb2fcb0be944a99f5058d6207af9666/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/0eb2fcb0be944a99f5058d6207af9666/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.basgeekball:awesome-validation:2.0] /home/edi/.gradle/caches/transforms-2/files-2.1/7fcae10c3330222852876102c92bba72/jetified-awesome-validation-2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.basgeekball:awesome-validation:2.0] /home/edi/.gradle/caches/transforms-2/files-2.1/7fcae10c3330222852876102c92bba72/jetified-awesome-validation-2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/edi/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/edi/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/af83585147f242818022c967dc6bd4aa/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/af83585147f242818022c967dc6bd4aa/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/edi/.gradle/caches/transforms-2/files-2.1/0e637258ecf83b66d5bb7dd41e4f4e3c/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/edi/.gradle/caches/transforms-2/files-2.1/0e637258ecf83b66d5bb7dd41e4f4e3c/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/052c46b0defa5351aee5fb407073c9b9/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/052c46b0defa5351aee5fb407073c9b9/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/edi/.gradle/caches/transforms-2/files-2.1/4eab28438b6c65d730b2de6205d53028/jetified-firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/edi/.gradle/caches/transforms-2/files-2.1/4eab28438b6c65d730b2de6205d53028/jetified-firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/9357bf158e50845fdb613cdd914f7cae/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/9357bf158e50845fdb613cdd914f7cae/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bb855a4d289342fb638640181e4a3f51/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bb855a4d289342fb638640181e4a3f51/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/6fd1a94b5b5355a2ec40c22cf0934d8e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/6fd1a94b5b5355a2ec40c22cf0934d8e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/0362ff4d8672321347a402c32368f192/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/0362ff4d8672321347a402c32368f192/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/d2cae29ea156ecc28d8f5099dc624ed2/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/d2cae29ea156ecc28d8f5099dc624ed2/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/dbbcc99072b5616db9e0106b8ed65934/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/dbbcc99072b5616db9e0106b8ed65934/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:7:5-43
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/5a6b7a0d06635f9bb44017fc8f9e678f/jetified-circleimageview-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/5a6b7a0d06635f9bb44017fc8f9e678f/jetified-circleimageview-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:23:3-70
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:23:3-70
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /home/edi/.gradle/caches/transforms-2/files-2.1/b0a3249603c9c83e5913c9c413b46dfc/stetho-okhttp3-1.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /home/edi/.gradle/caches/transforms-2/files-2.1/b0a3249603c9c83e5913c9c413b46dfc/stetho-okhttp3-1.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.1] /home/edi/.gradle/caches/transforms-2/files-2.1/71c1ff3cc65809512708e8cf15d3a240/jetified-stetho-1.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.1] /home/edi/.gradle/caches/transforms-2/files-2.1/71c1ff3cc65809512708e8cf15d3a240/jetified-stetho-1.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/ffa46f3d6480310395b7b525cf59ccde/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/ffa46f3d6480310395b7b525cf59ccde/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/64ed055c454b36433d45a77285ee24d6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/edi/.gradle/caches/transforms-2/files-2.1/64ed055c454b36433d45a77285ee24d6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/edi/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/edi/.gradle/caches/transforms-2/files-2.1/fcb2bd7fabc80d1f6bb2ca78443769f8/beta-1.2.7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/343b0fe7d2bc7ab8673afbf2b3cd99aa/crashlytics-core-2.4.1/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/7d54686fa5db5c0e7d145bed5ec5c86e/jetified-answers-1.4.1/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/7d54686fa5db5c0e7d145bed5ec5c86e/jetified-answers-1.4.1/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /home/edi/.gradle/caches/transforms-2/files-2.1/70ddb07ab85fb080d4856e256a2ea2d9/fabric-1.4.1/AndroidManifest.xml:27:5-43
+INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
-		INJECTED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
+		INJECTED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:88:13-90:58
+ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:88:13-90:58
 	android:resource
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:90:17-55
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:90:17-55
 	android:name
-		ADDED from /home/dev2/Documentos/Projetos StillDistribuidora/deliverys/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:89:17-67
+		ADDED from /home/edi/still-delivery-app-shopper/app/src/main/AndroidManifest.xml:89:17-67
 uses-permission#android.permission.VIBRATE
-ADDED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:26:5-66
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:20:3-63
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:20:3-63
+ADDED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/0eb2fcb0be944a99f5058d6207af9666/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:26:5-66
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:20:3-63
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:20:3-63
 	android:name
-		ADDED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a7c9c405ab5fb6aee245f672f361cc4f/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:26:22-63
+		ADDED from [com.wdullaer:materialdatetimepicker:3.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/0eb2fcb0be944a99f5058d6207af9666/jetified-materialdatetimepicker-3.2.1/AndroidManifest.xml:26:22-63
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/edi/.gradle/caches/transforms-2/files-2.1/0e637258ecf83b66d5bb7dd41e4f4e3c/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/edi/.gradle/caches/transforms-2/files-2.1/0e637258ecf83b66d5bb7dd41e4f4e3c/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/edi/.gradle/caches/transforms-2/files-2.1/0e637258ecf83b66d5bb7dd41e4f4e3c/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:31:13-33:29
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/edi/.gradle/caches/transforms-2/files-2.1/0e637258ecf83b66d5bb7dd41e4f4e3c/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:31:13-33:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:31:28-51
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/edi/.gradle/caches/transforms-2/files-2.1/0e637258ecf83b66d5bb7dd41e4f4e3c/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:31:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:32:17-78
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/edi/.gradle/caches/transforms-2/files-2.1/0e637258ecf83b66d5bb7dd41e4f4e3c/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/d68f6070117f84ca1c28b9ed5b2be8eb/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:32:25-75
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/edi/.gradle/caches/transforms-2/files-2.1/0e637258ecf83b66d5bb7dd41e4f4e3c/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:32:25-75
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:22-79
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:31:13-37
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:30:13-84
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:30:13-84
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:17-81
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:25-78
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:25-78
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:13-55:29
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:13-55:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:28-51
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:17-80
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/dev2/.gradle/caches/transforms-2/files-2.1/f43e9f77ba91558413e4def005478ac9/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:25-77
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/edi/.gradle/caches/transforms-2/files-2.1/c05718a16e3724746c5df3857e6c782e/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:25-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/dev2/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/edi/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/edi/.gradle/caches/transforms-2/files-2.1/4eab28438b6c65d730b2de6205d53028/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/edi/.gradle/caches/transforms-2/files-2.1/4eab28438b6c65d730b2de6205d53028/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/edi/.gradle/caches/transforms-2/files-2.1/4eab28438b6c65d730b2de6205d53028/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/edi/.gradle/caches/transforms-2/files-2.1/4eab28438b6c65d730b2de6205d53028/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/dev2/.gradle/caches/transforms-2/files-2.1/a08d3442f2864f5c14c4410113134ea1/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/edi/.gradle/caches/transforms-2/files-2.1/4eab28438b6c65d730b2de6205d53028/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
 provider#com.crashlytics.android.CrashlyticsInitProvider
-ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:12:9-16:39
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:12:9-16:39
 	android:authorities
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:14:13-75
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:14:13-75
 	android:exported
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:15:13-37
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:15:13-37
 	android:initOrder
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:16:13-36
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:13:13-75
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /home/edi/.gradle/caches/transforms-2/files-2.1/bf4834d290e1a3836f5b57ee28b339eb/crashlytics-2.7.1/AndroidManifest.xml:13:13-75
 uses-permission#android.permission.FLASHLIGHT
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:21:3-66
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:21:3-66
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:21:20-64
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:21:20-64
 uses-feature#android.hardware.camera
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:26:3-82
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:26:3-82
 	android:required
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:26:56-80
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:26:56-80
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:26:17-55
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:26:17-55
 uses-feature#android.hardware.camera.front
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:27:3-88
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:27:3-88
 	android:required
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:27:62-86
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:27:62-86
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:27:17-61
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:27:17-61
 uses-feature#android.hardware.camera.autofocus
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:30:3-92
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:30:3-92
 	android:required
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:30:66-90
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:30:66-90
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:30:17-65
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:30:17-65
 uses-feature#android.hardware.camera.flash
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:31:3-88
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:31:3-88
 	android:required
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:31:62-86
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:31:62-86
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:31:17-61
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:31:17-61
 uses-feature#android.hardware.screen.landscape
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:32:3-93
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:32:3-93
 	android:required
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:32:66-90
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:32:66-90
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:32:17-65
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:32:17-65
 uses-feature#android.hardware.wifi
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:33:3-80
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:33:3-80
 	android:required
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:33:54-78
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:33:54-78
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:33:17-53
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:33:17-53
 supports-screens
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:37:3-41:48
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:37:3-41:48
 	android:largeScreens
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:38:21-48
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:38:21-48
 	android:smallScreens
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:40:21-48
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:40:21-48
 	android:normalScreens
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:39:21-49
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:39:21-49
 	android:xlargeScreens
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:37:21-49
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:37:21-49
 	android:anyDensity
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:41:21-46
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:41:21-46
 activity#com.google.zxing.client.android.CaptureActivity
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:7-340
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:7-340
 	android:screenOrientation
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:164-201
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:164-201
 	android:clearTaskOnLaunch
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:17-49
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:17-49
 	android:stateNotNeeded
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:202-231
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:202-231
 	android:windowSoftInputMode
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:291-338
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:291-338
 	android:configChanges
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:50-100
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:50-100
 	android:theme
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:232-290
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:232-290
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:101-163
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:44:101-163
 activity#com.google.zxing.client.android.HelpActivity
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:45:7-111
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:45:7-111
 	android:screenOrientation
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:45:77-109
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:45:77-109
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/dev2/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:45:17-76
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] /home/edi/.gradle/caches/transforms-2/files-2.1/a43597ce0aa361f084b9ad0cbda80f0b/zxing-android-minimal-1.2.1/AndroidManifest.xml:45:17-76

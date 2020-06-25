@@ -22,6 +22,8 @@ import org.json.JSONObject;
 
 import java.util.List;
 
+
+
 public class ShopperSettings extends BaseActivity {
 
     private TextView cdp_txt_conductor_registrer;
