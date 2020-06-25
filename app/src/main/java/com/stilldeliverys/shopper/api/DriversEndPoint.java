@@ -241,6 +241,16 @@ public interface DriversEndPoint {
             @Header("Authorization") String authHeader,
             @Query("supermarket_chain_id") String supermarket_chain_id
     );
+    @POST("/api/v1/shopper-order-product/add")
+    @Headers({
+            "Accept: application/json",
+            "Content-Type: application/json"
+    })
+    Call<ResponseBody> shopper_order_product_add(
+            @Header("Authorization") String authHeader,
+            @Body String content
+    );
+
 
 
 

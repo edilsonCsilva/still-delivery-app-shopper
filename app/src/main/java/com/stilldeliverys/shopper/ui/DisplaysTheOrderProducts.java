@@ -270,12 +270,8 @@ public class DisplaysTheOrderProducts extends BaseActivity {
 
                         }
                     });
-
-
-
             //busca a lista de produtos
             System.out.println("");
-
         }catch (Exception e){ set_barra_conteudo(false,false,true,e.getMessage());}
 
     }
@@ -380,7 +376,35 @@ public class DisplaysTheOrderProducts extends BaseActivity {
                 holder.act_conct_router_dest_btn_coleted.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Toast.makeText(self,"sdaddddddd32322dsadas",Toast.LENGTH_LONG).show();
+
+                        StringBuffer content = new StringBuffer();
+                        content.append("{");
+                        content.append("\"shopper_id\":1,");
+                        content.append("\"shopper_order_id\":1,");
+                        content.append("\"product_id\":2,");
+                        content.append("\"event\":\"not_caught\",");
+                        content.append("\"comment\":\"lorem ipsum\"");
+                        content.append("}");
+
+
+
+                        new DriversEndPointActions().api().shopper_order_product_add(JWT[0],content.toString()).
+                                enqueue(new Callback<ResponseBody>() {
+                                    @Override
+                                    public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+
+                                    }
+
+                                    @Override
+                                    public void onFailure(Call<ResponseBody> call, Throwable t) {
+
+                                    }
+                                });
+
+
+
+
+
 
                     }
                 });
