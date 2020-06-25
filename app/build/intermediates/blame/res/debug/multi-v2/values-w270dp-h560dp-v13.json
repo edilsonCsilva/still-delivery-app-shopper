@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/edi/still-delivery-app-shopper/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w270dp-h560dp-v13/values-w270dp-h560dp-v13.xml",
+            "outputFile": "/home/dev/Documentos/still-delivery-app-shopper/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w270dp-h560dp-v13/values-w270dp-h560dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/edi/.gradle/caches/transforms-2/files-2.1/0eb2fcb0be944a99f5058d6207af9666/jetified-materialdatetimepicker-3.2.1/res/values-w270dp-h560dp-v13/values-w270dp-h560dp-v13.xml",
+                    "source": "/home/dev/.gradle/caches/transforms-2/files-2.1/4c165066ce47604705b59f5cf63ff74a/jetified-materialdatetimepicker-3.2.1/res/values-w270dp-h560dp-v13/values-w270dp-h560dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

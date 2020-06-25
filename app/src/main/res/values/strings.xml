@@ -82,6 +82,8 @@
     <string name="order_do_pedido">Order do Pedido</string>
     <string name="str_not_order_shopper_select">Não há Pedidos Associados para Mercado Selecionado..!</string>
     <string name="str_total_shopper">Total</string>
+    <string name="n_o_coletado">Não Coletado</string>
+    <string name="coletado">Coletado</string>
 
 
 </resources>

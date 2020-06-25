@@ -5,11 +5,13 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.SearchView;
 import android.widget.TextView;
@@ -24,6 +26,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.stilldeliverys.shopper.R;
 import com.stilldeliverys.shopper.api.DriversEndPointActions;
 import com.stilldeliverys.shopper.core.BaseActivity;
+import com.stilldeliverys.shopper.core.Constantes;
 import com.stilldeliverys.shopper.core.ConstantesDbHelper;
 import com.stilldeliverys.shopper.core.Libs;
 import com.stilldeliverys.shopper.db.Settings;
@@ -46,7 +49,6 @@ import retrofit2.Response;
 public class DisplaysTheOrderProducts extends BaseActivity {
     private List<Settings> supermarkets_active;
     private RecyclerView act_conct_shopper_order_list;
-    private RecyclerView.Adapter AdapterConductorAssociatedShopper;
     private RecyclerView.LayoutManager layoutManager;
     private OnClickedAndInteractingWithEventsBasic events;
     private List<Settings> setting = null;
@@ -56,6 +58,7 @@ public class DisplaysTheOrderProducts extends BaseActivity {
     private TextView card_view_mensagem_conteudo;
     private CardView card_view_mensagem;
     private  List<Settings>  order_selected;
+    private RecyclerView.Adapter AdapterAssociatedShopperOrderProductor;
 
 
     @Override
@@ -233,46 +236,33 @@ public class DisplaysTheOrderProducts extends BaseActivity {
                         @RequiresApi(api = Build.VERSION_CODES.KITKAT)
                         @Override
                         public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
-
                             if(response.isSuccessful()){
                                 try {
-
-
                                     JSONArray orders_products =(new JSONObject(response.body().string())).getJSONArray("order_products");
                                     int total=orders_products.length();
                                     for(int i=0;i < total;i++){
                                         try{
-
-                                            System.out.println("4### - "+orders_products.getJSONObject(i).getString("product_id"));
-
-                                            System.out.println("4### - "+orders_products.getJSONObject(i).getJSONObject("product").getString("name"));
-
-
-
-
+                                            stores_shopper_productors.add(orders_products.getJSONObject(i).toString());
                                         }catch (Exception e){}
+                                    }
+
+                                    if(stores_shopper_productors.size()!=0) {
+                                        AdapterAssociatedShopperOrderProductor = new AdapterAssociatedShopperOrderProductor(stores_shopper_productors, events);
+                                        act_conct_shopper_order_list.setAdapter(AdapterAssociatedShopperOrderProductor);
+
+                                        set_barra_conteudo(false, true, false, "");
+                                    }else{
+                                        set_barra_conteudo(false, false, true, getString(R.string.str_not_order_shopper_select));
                                     }
 
 
 
-
-/*
-
-                                    ("order_products"));*/
-
-
-
-
-
                                     System.out.println("");
-
                                 }catch (Exception e){
                                     e.printStackTrace();
                                     set_barra_conteudo(false,false,true,e.getMessage());
                                 }
-
                             }
-                            
                         }
 
                         @Override
@@ -308,20 +298,14 @@ public class DisplaysTheOrderProducts extends BaseActivity {
                         finish();
                     }
                 });
-
         alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "Cancelar",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();
-
                     }
                 });
-
         alertDialog.show();
-
-
     }
-
     private void set_barra_conteudo(boolean barra, boolean conteudo, boolean messagens, String messagens_text) {
         if (barra) {
             br_status.setVisibility(View.VISIBLE);
@@ -347,6 +331,120 @@ public class DisplaysTheOrderProducts extends BaseActivity {
             card_view_mensagem_conteudo.setText("");
         }
     }
+
+
+
+    /*
+    * Adapter productor Shopper
+    * */
+    public class AdapterAssociatedShopperOrderProductor extends RecyclerView.Adapter<AdapterAssociatedShopperOrderProductor.Shopper> {
+        private List<Object> objects;
+        private OnClickedAndInteractingWithEventsBasic mOnClickedAndInteractingWithEvents;
+
+        public AdapterAssociatedShopperOrderProductor(List<Object> objects, OnClickedAndInteractingWithEventsBasic listener) {
+            this.objects = objects;
+            mOnClickedAndInteractingWithEvents = listener;
+        }
+
+        @NonNull
+        @Override
+        public AdapterAssociatedShopperOrderProductor.Shopper onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+            View v = LayoutInflater.from(parent.getContext())
+                    .inflate(R.layout.activity_shopper_orders_productor_lines, parent, false);
+            return new AdapterAssociatedShopperOrderProductor.Shopper(v);
+        }
+
+        @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+        @Override
+        public void onBindViewHolder(@NonNull AdapterAssociatedShopperOrderProductor.Shopper holder, int position) {
+            try {
+                JSONObject object = new JSONObject(this.objects.get(position).toString());
+                final String json_object = this.objects.get(position).toString();
+                float quantity = Float.parseFloat(object.getString("quantity"));
+                float unityPrince = Float.parseFloat(object.getString("unity_price"));
+                float total=quantity*unityPrince;
+                holder.act_conct_router_dest_txt_uuid.setText(object.getString("product_id"));
+                holder.act_conct_router_dest_txt_name_distance.setText(object.getJSONObject("product").getString("name"));
+                holder.act_conct_router_dest_txt_email.setText(object.getJSONObject("product").getJSONObject("product_brand").getString("name"));
+                holder.act_conct_router_dest_txt_contatos.setText(object.getString("quantity"));
+                holder.act_conct_router_dest_txt_endereco.setText(object.getString("unity_price"));
+                holder.act_conct_router_dest_txt_endereco_cep.setText(String.valueOf(total));
+                holder.act_conct_router_dest_btn_not_coleted.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Toast.makeText(self,"sdaddsadas",Toast.LENGTH_LONG).show();
+
+                    }
+                });
+
+                holder.act_conct_router_dest_btn_coleted.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Toast.makeText(self,"sdaddddddd32322dsadas",Toast.LENGTH_LONG).show();
+
+                    }
+                });
+
+
+
+
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+
+        }
+        @Override
+        public int getItemCount() {
+            return objects.size();
+        }
+        public class Shopper extends RecyclerView.ViewHolder {
+            private TextView act_conct_router_dest_txt_uuid,act_conct_router_dest_txt_total, act_conct_router_dest_txt_name,
+                    act_conct_router_dest_txt_name_distance,act_conct_router_dest_txt_email, act_conct_router_dest_txt_contatos,
+                    act_conct_router_dest_txt_endereco_cep,act_conct_router_dest_txt_endereco;
+
+            private Button act_conct_router_dest_btn_not_coleted,act_conct_router_dest_btn_coleted;
+
+
+            public Shopper(View itemView) {
+                super(itemView);
+
+                act_conct_router_dest_txt_total=(TextView)itemView.findViewById(R.id.act_conct_router_dest_txt_total);
+                act_conct_router_dest_txt_uuid = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_uuid);
+                act_conct_router_dest_txt_name = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_name);
+                act_conct_router_dest_txt_name_distance = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_name_distance);
+                act_conct_router_dest_txt_email = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_email);
+                act_conct_router_dest_txt_contatos = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_contatos);
+                act_conct_router_dest_txt_endereco = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_endereco);
+                act_conct_router_dest_txt_endereco_cep = (TextView) itemView.findViewById(R.id.act_conct_router_dest_txt_endereco_cep);
+                act_conct_router_dest_btn_not_coleted=(Button)itemView.findViewById(R.id.act_conct_router_dest_btn_not_coleted) ;
+                act_conct_router_dest_btn_coleted=(Button)itemView.findViewById(R.id.act_conct_router_dest_btn_coleted) ;
+            }
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

@@ -1335,6 +1335,8 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id act_btn_shopper_orders
+id act_conct_router_dest_btn_coleted
+id act_conct_router_dest_btn_not_coleted
 id act_conct_router_dest_txt_contatos
 id act_conct_router_dest_txt_email
 id act_conct_router_dest_txt_endereco
@@ -1714,6 +1716,7 @@ layout activity_displays_the_order_products
 layout activity_main
 layout activity_shopper_lines
 layout activity_shopper_orders_lines
+layout activity_shopper_orders_productor_lines
 layout activity_shopper_settings
 layout activity_start_app
 layout app_picker_list_item
@@ -1875,6 +1878,7 @@ string character_counter_content_description
 string character_counter_pattern
 string close
 string cnpj
+string coletado
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -2005,6 +2009,7 @@ string msn_title
 string msn_update_error
 string msn_update_ok
 string mtrl_chip_close_icon_content_description
+string n_o_coletado
 string n_o_h_historicos_no_momento
 string name_cliente
 string new_game

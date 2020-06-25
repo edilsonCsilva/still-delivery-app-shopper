@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.SearchView;
 import android.widget.TextView;
-import android.widget.Toast;
+
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -82,7 +82,6 @@ public class DisplaysOrders extends BaseActivity {
         events = new OnClickedAndInteractingWithEventsBasic() {
             @Override
             public void onClick(String type, String metadados) {
-                Toast.makeText(self, "", Toast.LENGTH_SHORT).show();
                 Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_IS_ORDER_ACTIVE_MANTER,metadados,false);
                 startActivity(new Intent(self, DisplaysTheOrderProducts.class));
            }
@@ -121,8 +120,7 @@ public class DisplaysOrders extends BaseActivity {
                                     if(stores_shopper.size()!=0){
                                         AdapterConductorAssociatedShopper = new AdapterAssociatedShopperOrder(stores_shopper, events);
                                         act_conct_shopper_order_list.setAdapter(AdapterConductorAssociatedShopper);
-                                        Toast.makeText(self, "", Toast.LENGTH_SHORT).show();
-                                        set_barra_conteudo(false, true, false, "");
+                                         set_barra_conteudo(false, true, false, "");
                                     }else{
                                         set_barra_conteudo(false, false, true, getString(R.string.str_not_order_shopper_select));
                                     }
@@ -364,7 +362,7 @@ public class DisplaysOrders extends BaseActivity {
 
                 String contatos=String.format("%s / %s",object.getString("phone"),object.getString("cellphone"));
 
-                holder.act_conct_router_dest_txt_uuid.setText(object.getString("id"));
+                holder.act_conct_router_dest_txt_uuid.setText(object.getString("order_id"));
                 holder.act_conct_router_dest_txt_total.setText(object.getString("total"));
                 holder.act_conct_router_dest_txt_name.setText(object.getString("freight_price"));
 

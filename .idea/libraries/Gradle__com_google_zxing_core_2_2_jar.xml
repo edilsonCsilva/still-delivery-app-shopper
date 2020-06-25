@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.zxing:core:2.2@jar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.google.zxing/core/2.2/cba0b93b0072105d808ef7a00a107a4eb97874e7/core-2.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/2.2/cba0b93b0072105d808ef7a00a107a4eb97874e7/core-2.2.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.google.zxing/core/2.2/de7d4de96d593a227b9dd5dc4094eeb17b40b8ea/core-2.2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/2.2/de7d4de96d593a227b9dd5dc4094eeb17b40b8ea/core-2.2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.google.zxing/core/2.2/6030d26a0110bc1edfa5fa61749cc993db98b1e8/core-2.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/2.2/6030d26a0110bc1edfa5fa61749cc993db98b1e8/core-2.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
