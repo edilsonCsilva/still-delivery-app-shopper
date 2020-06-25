@@ -85,9 +85,7 @@ public class DisplaysOrders extends BaseActivity {
                 Toast.makeText(self, "", Toast.LENGTH_SHORT).show();
                 Libs.seek_configurations(self,ConstantesDbHelper.SETTINGS_IS_ORDER_ACTIVE_MANTER,metadados,false);
                 startActivity(new Intent(self, DisplaysTheOrderProducts.class));
-
-
-            }
+           }
         };
 
 
@@ -100,9 +98,10 @@ public class DisplaysOrders extends BaseActivity {
         try {
 
 
+
+
             String supermarket_chain_id = (new JSONArray(supermarkets_active.get(0).getMetadados())).getJSONObject(0).getString("supermarket_chain_id");
             //Validação do Supermercado selecionado
-
             //Validação do Supermercado selecionado
             new DriversEndPointActions().api().shopper_order_associates(JWT[0], supermarket_chain_id).
                     enqueue(new Callback<ResponseBody>() {

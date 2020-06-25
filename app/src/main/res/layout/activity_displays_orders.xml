@@ -9,6 +9,8 @@
     android:orientation="vertical">
 
 
+
+
     <ProgressBar
         android:id="@+id/br_status"
         android:layout_gravity="center"
